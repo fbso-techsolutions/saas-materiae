@@ -1,0 +1,216 @@
+# Contrato OpenAPI — Consulta e devolutiva ao cadastro mestre de materiais serializados
+# Status: PROPOSTA (0.1.0) — gerado em 2026-10-21 (PENDENCY-0014)
+# Base: TMF687 (Stock Management API v4.0) adaptada.
+# ⚠️ PENDÊNCIA DE FECHAMENTO: alinhar aos schemas TMF639 (Resource Inventory — /resource,
+#    /resourceAttributeValue), API canônica de referência decidida em PENDENCY-0014, e ao
+#    mapeamento dos desfechos BR-1.4.3 (retorno do campo · sucateado · expedido).
+#    Fechamento com a área dona: ver ../integracao-cadastro-mestre.md §9.
+openapi: 3.1.0
+info:
+  title: API de Consulta e Devolutiva — Cadastro Mestre de Materiais Serializados
+  version: 0.1.0-proposta
+  description: |
+    API de SAÍDA do sistema RMR para o cadastro mestre de materiais serializados:
+    - Consulta síncrona de elegibilidade por identificador físico (R17/R22);
+    - Devolutiva assíncrona de desfecho do ativo (R48 — BR-1.4.7 idempotente).
+    Padrões: API-First (BR-1.4.6) · ACL + Outbox/Inbox (ADR-004).
+  contact:
+    name: Eng — arquitetura de integrações (projeto PRJ-SUP-2026-0000-RMR)
+servers:
+  - url: https://suaempresa.com.br
+    description: URL base a confirmar com a área dona do cadastro mestre
+security:
+  - OAuth2Bearer: []
+tags:
+  - name: consulta
+    description: Consulta de existência/elegibilidade do ativo
+  - name: devolutiva
+    description: Atualização de status do ciclo de vida (fechar o loop)
+paths:
+  /productStock:
+    get:
+      tags: [consulta]
+      summary: Consultar ativo por qualquer identificador físico
+      description: |
+        Envia o tipo do identificador (catálogo R15) e o valor bruto para verificar se o
+        ativo existe na base central e se pode entrar no processo de manutenção/reciclagem.
+      security:
+        - OAuth2Bearer: []
+      parameters:
+        - name: identifierType
+          in: query
+          required: true
+          description: Tipo de código pesquisado conforme catálogo de identificadores (R15).
+          schema:
+            type: string
+            enum: [SERIAL, SMART_CARD, SCID, CAID, CAS, GPON_SN, SAT_KIT_SN, IMEI, ICCID, IMSI]
+          example: "GPON_SN"
+        - name: identifierValue
+          in: query
+          required: true
+          description: Valor bruto do identificador a ser validado (higienização prévia no RMR — ver regras-formacao-identificadores).
+          schema:
+            type: string
+          example: "HWTC1A2B3C4D"
+      responses:
+        "200":
+          description: Ativo localizado. Retorna dados básicos, status atual e agrupador lógico (NDS). A resposta vem em lista ([]) — identificadores são chaves exclusivas, mas o padrão TMF devolve coleção.
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/ProductStock"
+        "404":
+          description: |
+            Ativo não localizado (ERR_ASSET_NOT_FOUND). Regra de negócio: a interface bloqueia o
+            fluxo de manutenção da peça e orienta chamado de "Saneamento de Inventário/Carga de Saldo".
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Error"
+        "503":
+          description: Sistema mestre indisponível — circuit breaker aberto; a triagem registra pendência de integração (não bloqueia o operador).
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Error"
+  /productStock/{id}:
+    patch:
+      tags: [devolutiva]
+      summary: Atualizar status do ciclo de vida do ativo (fluxo inverso)
+      description: |
+        Notifica o sistema central sobre a mudança de estado do hardware (desfecho BR-1.4.3).
+        Atualização parcial: só o status do ciclo de vida — o bloco técnico (séries, especificações)
+        não é reenviado. Idempotente via header Idempotency-Key (BR-1.4.7).
+      security:
+        - OAuth2Bearer: []
+      parameters:
+        - name: id
+          in: path
+          required: true
+          description: ID interno do estoque (STK-ID) retornado na consulta prévia.
+          schema:
+            type: string
+          example: "STK-987654321"
+        - name: Idempotency-Key
+          in: header
+          required: true
+          description: Chave de idempotência (BR-1.4.7) — reenvios com a mesma chave não duplicam a transição.
+          schema:
+            type: string
+          example: "rmr-9f2c1e8a-stage-transition-4812"
+      requestBody:
+        required: true
+        description: Bloco de atualização parcial focado na transição de status.
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/ProductStockMaintenancePatch"
+      responses:
+        "200":
+          description: Status do ativo atualizado no sistema central.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ProductStock"
+        "400":
+          description: Erro de validação ou transição de status inválida.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Error"
+        "404":
+          description: O ID de estoque informado não existe.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Error"
+components:
+  securitySchemes:
+    OAuth2Bearer:
+      type: http
+      scheme: bearer
+      bearerFormat: JWT
+      description: Token OAuth2/OIDC (Keycloak — ADR-005) emitido para o sistema consumidor.
+  schemas:
+    ProductStock:
+      type: object
+      description: Ativo no inventário central (base TMF687 — a alinhar a TMF639).
+      required: [id, href, name, status]
+      properties:
+        id:
+          type: string
+          example: "STK-987654321"
+        href:
+          type: string
+          example: "https://suaempresa.com.br"
+        name:
+          type: string
+          example: "Modem ONT GPON Huawei HG8145V5"
+        status:
+          type: string
+          description: Status atual do ciclo de vida no sistema central.
+          example: "Em Trânsito"
+        productSpecification:
+          type: object
+          properties:
+            id:
+              type: string
+              example: "SPEC-HUAWEI-HG8145V5"
+            name:
+              type: string
+              example: "Modem ONT GPON"
+        productCharacteristic:
+          type: array
+          description: Identificadores físicos e atributos do ativo (catálogo R15).
+          items:
+            type: object
+            required: [name, value]
+            properties:
+              name:
+                type: string
+                example: "GPON_SN"
+              value:
+                type: string
+                example: "HWTC1A2B3C4D"
+        place:
+          type: object
+          properties:
+            id:
+              type: string
+              example: "LOC-CENTRAL-SP"
+            name:
+              type: string
+              example: "Depósito Central São Paulo"
+    ProductStockMaintenancePatch:
+      type: object
+      description: Atualização parcial de status (devolutiva de desfecho).
+      required: [status, statusChangeReason, statusChangeDate]
+      properties:
+        status:
+          type: string
+          description: Novo estado do ativo no fluxo técnico (catálogo de status a confirmar — mapeamento × BR-1.4.3 pendente).
+          example: "Em Manutenção"
+        statusChangeReason:
+          type: string
+          description: Justificativa técnica/laudo do laboratório sobre a mudança de estado.
+          example: "Equipamento apresentou falha de sincronismo óptico e aguarda análise técnica."
+        statusChangeDate:
+          type: string
+          format: date-time
+          description: Data/hora da alteração no laboratório.
+          example: "2026-10-21T12:15:30Z"
+    Error:
+      type: object
+      required: [code, message]
+      properties:
+        code:
+          type: string
+          example: "ERR_ASSET_NOT_FOUND"
+        message:
+          type: string
+          example: "O ativo pesquisado não foi localizado no inventário central."
+        details:
+          type: string
+          example: "Nenhum registro corresponde ao tipo 'GPON_SN' com o valor 'HWTC1A2B3C4D'."

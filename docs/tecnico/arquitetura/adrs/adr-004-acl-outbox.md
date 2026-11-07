@@ -1,0 +1,12 @@
+# ADR-004 — Hub de integração com ACL + Outbox/Inbox + idempotência
+
+| Campo | Conteúdo |
+|---|---|
+| **Data / Status** | 2026-10-14 (SAD v0.1) · **Proposta** — base formalizada da decisão de integração em 2026-10-21 ([PENDENCY-0014](../../../../projects/PRJ-SUP-2026-0000-RMR/pendencias.md)) |
+| **Contexto** | O domínio RMR conversa com **5 sistemas de referência** (cadastro mestre de serializados, mestre de materiais, WMS/estoque, centro de reciclagem central, APIs de parceiros — R17, R38–R48). Sem proteção, termos e payloads externos vazariam para o núcleo de domínio e falhas de rede contaminariam regras de negócio; entradas de parceiros podem chegar duplicadas/reenviadas (R39–R46). |
+| **Decisão** | Módulo `integration` como **hub com Anti-Corruption Layer (ACL)**: cada sistema externo tem **porta (interface) + adaptador** próprios (`MaterialRegistryPort`, `StockPort`, `LogisticsHubPort`, `PartnerIngestPort`). **Saída** via *Transactional Outbox* (publica eventos de domínio `StageTransition`); **entrada** via *Inbox + idempotência* (`idempotency_key`). O validador de **lei de formação e ordem** (R46) vive no hub, fora do domínio. |
+| **Justificativa** | 1) Regra de ouro da arquitetura: **domínio não conhece sistemas externos**; 2) Outbox garante que toda movimentação gere evento **sem 2PC/transação distribuída**; 3) Inbox/idempotência absorvem reenvios duplicados de parceiros e devolutivas; 4) evoluir/trocar um sistema externo **não toca o domínio** (só o adaptador); 5) hub centraliza validação (lei de formação), reconciliação e alertas de divergência. |
+| **Consequências** | Consumers precisam ser idempotentes; **reconciliação periódica** + alerta de divergência são obrigatórios; complexidade de fila/DLQ aceita como custo do padrão; toda integração nova nasce dentro de `integration` (porta + adaptador + contrato OpenAPI). |
+| **Alternativas rejeitadas** | **Chamada direta do domínio ao sistema externo** — acoplamento, vazamento de termos e retrabalho a cada troca de fornecedor; **2PC/transação distribuída** — fragilidade e bloqueio de disponibilidade. |
+| **Rastreio** | Requisitos: **R17, R22, R38–R48** · BRAINSTORM §6.5/§7 · Regras: **BR-1.4.6** (REST genérica), **BR-1.4.7** (idempotência da devolutiva) · Docs: [integrations](../integracoes/integrations.md) · [integracao-cadastro-mestre](../integracoes/integracao-cadastro-mestre.md) · C4: [../c4-components.md](../c4-components.md) |
+| **Registro** | Originalmente no SAD (05) §5 — dissolvido em [INDEX](INDEX.md) em 2026-10-21 (estrutura `architecture.md` + `adrs/`) |

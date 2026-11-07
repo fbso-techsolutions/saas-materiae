@@ -1,0 +1,27 @@
+# Java
+target/
+*.class
+.mvn/wrapper/maven-wrapper.jar
+hs_err_pid*
+
+# Maven
+*.log
+
+# Node / React
+node_modules/
+dist/
+.eslintcache
+
+# Env / secrets
+.env
+.env.*
+*.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.idea/
+.vscode/
+*.swp

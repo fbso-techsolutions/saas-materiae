@@ -1,0 +1,14 @@
+# CI Backend — thin wrapper que chama a plataforma
+# A lógica de build real vive em platform/.github/workflows/build-java-quarkus.yml
+name: CI Backend
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  call-platform:
+    uses: fbso-techservice/platform/.github/workflows/build-java-quarkus.yml@main
+    with:
+      java-version: "25"

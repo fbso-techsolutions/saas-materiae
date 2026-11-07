@@ -1,0 +1,11 @@
+# CODEOWNERS do saas-rmr
+# Ajustar para os times reais da org.
+
+# Owners globais
+* @fbso-techservice/rmr
+
+# Infra e gitops
+/infra/ @fbso-techservice/devops
+
+# Docs
+/docs/ @fbso-techservice/rmr
