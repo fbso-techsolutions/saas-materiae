@@ -8,7 +8,7 @@
 | **Data-alvo** | Sprint 2 (Onda 1-Must (MVP mínimo)) |
 | **Estimativa** | 4 pontos |
 | **Rastreio** | B-REQ-01 · R25 (triagem → *teste funcional* — etapa **TESTE INICIAL** — ou sucata), R20 (auditoria por etapa) |
-| **Versão** | 1.1 — layout INVEST/Gherkin ([guia ágil §5](https://github.com/fbso-techservice/platform/blob/main/standards/process/guia-invest-enablers-spike.md)) |
+| **Versão** | 1.1 — layout INVEST/Gherkin ([guia ágil §5](https://github.com/fbso-techservice/platform-standards/blob/main/standards/process/guia-invest-enablers-spike.md)) |
 | **Status** | ✅ Revisado (2026-11-05) |
 
 ---
@@ -54,4 +54,4 @@
 
 ---
 
-**Verificação INVEST** ([guia ágil §1](https://github.com/fbso-techservice/platform/blob/main/standards/process/guia-invest-enablers-spike.md)): **I** ✅ decisão humana autônoma, sem depender de motor (FEATURE-0001.0002 fora da Onda 1-Must (MVP mínimo)) · **N** ✅ escolha de rotas conversada com a Operação · **V** ✅ mantém o fluxo em movimento (R25) · **E** ✅ 4 pontos · **S** ✅ cabe numa Sprint · **T** ✅ 4 cenários testáveis.
+**Verificação INVEST** ([guia ágil §1](https://github.com/fbso-techservice/platform-standards/blob/main/standards/process/guia-invest-enablers-spike.md)): **I** ✅ decisão humana autônoma, sem depender de motor (FEATURE-0001.0002 fora da Onda 1-Must (MVP mínimo)) · **N** ✅ escolha de rotas conversada com a Operação · **V** ✅ mantém o fluxo em movimento (R25) · **E** ✅ 4 pontos · **S** ✅ cabe numa Sprint · **T** ✅ 4 cenários testáveis.

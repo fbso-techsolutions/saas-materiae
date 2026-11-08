@@ -11,6 +11,6 @@
 | [ARCH-RUNWAY-0003](ARCH-RUNWAY-0003-workflow-tabela-configuracao.md) | Tabela de configuração de workflow | 🧱 `#arch-workflow` | [ENABLER-0006](../enablers/ENABLER-0006-workflow-tabela-configuracao.md) | 🟡 Sprint 1→2 — 04/11 |
 | [ARCH-RUNWAY-0004](ARCH-RUNWAY-0004-auditoria-append-only.md) | Trilha de auditoria append-only | 🛡️ `#arch-security` | [ENABLER-0007](../enablers/ENABLER-0007-auditoria-append-only.md) | 🔵 Sprint 1 — 29/10 |
 
-**Convenção:** `ARCH-RUNWAY-{NNNN}` · arquivo `{ID}-{slug}.md` · ícone 🧱 ([padrão §2.1](https://github.com/fbso-techservice/platform/blob/main/standards/engineering/padrao-identificacao-entidades.md)).
+**Convenção:** `ARCH-RUNWAY-{NNNN}` · arquivo `{ID}-{slug}.md` · ícone 🧱 ([padrão §2.1](https://github.com/fbso-techservice/platform-standards/blob/main/standards/engineering/padrao-identificacao-entidades.md)).
 
 > 🔄 **Migração de prefixo (2026-11-03):** `ARCHITECTURE-RUNWAY-` → `ARCH-RUNWAY-` (PENDENCY-0029 · padrão §4 item 7). Os 4 documentos e todas as referências foram renomeados via `git mv`, seguindo a receita da §5 do padrão. Decisão registrada em [D-13](../../prj-produto/backlog/DECISOES-BACKLOG.md).

@@ -8,7 +8,7 @@
 | **Data-alvo** | Sprint 2 (Onda 1-Must (MVP mínimo)) |
 | **Estimativa** | 3 pontos |
 | **Rastreio** | B-REQ-01 (categoria do ativo · apoio à triagem) · R6 (defeito reclamado), R15 (modelos) |
-| **Versão** | 1.1 — layout INVEST/Gherkin ([guia ágil §5](https://github.com/fbso-techservice/platform/blob/main/standards/process/guia-invest-enablers-spike.md)) |
+| **Versão** | 1.1 — layout INVEST/Gherkin ([guia ágil §5](https://github.com/fbso-techservice/platform-standards/blob/main/standards/process/guia-invest-enablers-spike.md)) |
 | **Status** | ✅ Revisado (2026-11-05) |
 
 ---
@@ -48,4 +48,4 @@
 
 ---
 
-**Verificação INVEST** ([guia ágil §1](https://github.com/fbso-techservice/platform/blob/main/standards/process/guia-invest-enablers-spike.md)): **I** ✅ só exige o recebimento em andamento (US-FEAT-0001.0001-0001 como contexto, não como pré-condição de entrega) · **N** ✅ conversa define o catálogo mínimo · **V** ✅ histórico completo desde a entrada · **E** ✅ 3 pontos · **S** ✅ cabe numa Sprint · **T** ✅ 3 cenários testáveis.
+**Verificação INVEST** ([guia ágil §1](https://github.com/fbso-techservice/platform-standards/blob/main/standards/process/guia-invest-enablers-spike.md)): **I** ✅ só exige o recebimento em andamento (US-FEAT-0001.0001-0001 como contexto, não como pré-condição de entrega) · **N** ✅ conversa define o catálogo mínimo · **V** ✅ histórico completo desde a entrada · **E** ✅ 3 pontos · **S** ✅ cabe numa Sprint · **T** ✅ 3 cenários testáveis.

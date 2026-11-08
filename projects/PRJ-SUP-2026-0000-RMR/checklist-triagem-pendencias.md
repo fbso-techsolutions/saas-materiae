@@ -30,7 +30,7 @@
 | 7 | Dimensionamento do servidor e região/custo do alvo Onda 4 (Produto)/Onda 5 (Plataforma) | [checklist-arquitetura §C1](prj-tecnico/checklist-arquitetura-onda-1.md) | Infra | 2026-10-30 | ⬆️ | [PENDENCY-0026](pendencias.md) |
 | 8 | 4 integrações sem doc/dono + escolha do sistema externo do cadastro mestre | [inventory §6](../../docs/tecnico/inventory.md) | Arquiteto | 2026-11-13 | ⬆️ | [PENDENCY-0027](pendencias.md) |
 | 9 | Persistência do `MAC_ADDRESS` e colunas MTR/CDF no DDL | [data-dictionary §7](../../docs/tecnico/arquitetura/data-dictionary.md) · [datamapping §6](../../docs/tecnico/arquitetura/datamapping.md) | Eng + Eng de Dados | 2026-11-13 | ⬆️ | [PENDENCY-0028](pendencias.md) |
-| 10 | Validação do padrão de identificação de entidades (7 itens) | [padrao-identificacao-entidades §4](https://github.com/fbso-techservice/platform/blob/main/standards/engineering/padrao-identificacao-entidades.md) | Arquiteto + PO | 2026-11-07 | ⬆️ | [PENDENCY-0029](pendencias.md) |
+| 10 | Validação do padrão de identificação de entidades (7 itens) | [padrao-identificacao-entidades §4](https://github.com/fbso-techservice/platform-standards/blob/main/standards/engineering/padrao-identificacao-entidades.md) | Arquiteto + PO | 2026-11-07 | ⬆️ | [PENDENCY-0029](pendencias.md) |
 
 ---
 

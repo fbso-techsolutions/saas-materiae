@@ -29,7 +29,7 @@ A lista tem **um item por linha** e opera no nível em que a sprint trabalha:
 
 | Coluna | Regra |
 |---|---|
-| **Tipo** | `User Story` · `Enabler` · `Architectural Runway` · `Débito técnico` · `Bug` · `Incidente` (taxonomia em [padrão §2](https://github.com/fbso-techservice/platform/blob/main/standards/engineering/padrao-identificacao-entidades.md#2-tabela-mestra-das-entidades)) |
+| **Tipo** | `User Story` · `Enabler` · `Architectural Runway` · `Débito técnico` · `Bug` · `Incidente` (taxonomia em [padrão §2](https://github.com/fbso-techservice/platform-standards/blob/main/standards/engineering/padrao-identificacao-entidades.md#2-tabela-mestra-das-entidades)) |
 | **ID** | ID da entidade, sem link — o link fica em `Contexto` |
 | **Título** | descrição curta do item |
 | **Contexto** | **só o link ao documento do item** (`User Story` · `Enabler` · `Architectural Runway`). Sem texto ao lado: a hierarquia vem do ID (`US-FEAT-{feature}-{SSSS}`) e o domínio da runway, do próprio card |
@@ -63,7 +63,7 @@ A **lista** responde *onde o item está na gestão* com **5 estados**; o **board
 - **`🔵 Comprometido` e `🟡 Iniciado` saíram (2026-10-29).** O compromisso já está em `Entregue por` (`S1`…`S5`); "puxado e não entregue" é `🔄 Em execução`.
 - **Enum fechado.** Só os 5 valores acima — "em ajustes", "quase pronto" e afins não existem.
 - **Cada gate tem dono:** dev → review · revisor → testes · QA → homologação · PO/Operação → aceite · DevOps → deploy. Quem move o quê está na [matriz](../sprints/README.md#board-da-sprint).
-- **Gate de documentação (DoR):** uma **user story** só é puxada para sprint/`Em Dev` quando o `Status` do **documento** da story estiver `✅ Revisado`/`Aprovado`/`Concluído` (documentação finalizada — [guia §5](https://github.com/fbso-techservice/platform/blob/main/standards/process/guia-invest-enablers-spike.md)). Story com doc em `Rascunho`/`Em formação` fica fora do fluxo de execução.
+- **Gate de documentação (DoR):** uma **user story** só é puxada para sprint/`Em Dev` quando o `Status` do **documento** da story estiver `✅ Revisado`/`Aprovado`/`Concluído` (documentação finalizada — [guia §5](https://github.com/fbso-techservice/platform-standards/blob/main/standards/process/guia-invest-enablers-spike.md)). Story com doc em `Rascunho`/`Em formação` fica fora do fluxo de execução.
 - **Migração:** os 35 itens foram remapeados em 2026-10-29 (21 `A fazer` · 14 `Em execução`); a confirmação item a item dos 14 da Sprint 1 foi fechada na review de 30/10 — [PENDENCY-0033](../../pendencias.md) ✅.
 
 **Do vocabulário proposto ao implementado (2026-10-29):**
@@ -120,7 +120,7 @@ A **lista** responde *onde o item está na gestão* com **5 estados**; o **board
 3. **Fatiamento vertical** — priorizar o que fecha o ciclo do item ponta a ponta e o que tem maior risco técnico (workflow e compliance primeiro).
 4. **Dependências externas** (integrações com sistemas chamados) podem ficar fora do **Onda 1-Must (MVP mínimo)**, mas não do **MVP**.
 
-> 📌 **Priorização econômica (WSJF):** para ordenar itens por valor/urgência/risco vs. esforço, use o [guia WSJF de priorização](https://github.com/fbso-techservice/platform/blob/main/standards/process/guia-wsjf-priorizacao.md). Regra da granularidade: Features competem no nível Programa, Stories/Enablers no nível Time; e a alocação de capacidade protege a fatia de Enablers de fundação.
+> 📌 **Priorização econômica (WSJF):** para ordenar itens por valor/urgência/risco vs. esforço, use o [guia WSJF de priorização](https://github.com/fbso-techservice/platform-standards/blob/main/standards/process/guia-wsjf-priorizacao.md). Regra da granularidade: Features competem no nível Programa, Stories/Enablers no nível Time; e a alocação de capacidade protege a fatia de Enablers de fundação.
 
 ### 9. De onde veio cada coisa
 
@@ -133,7 +133,7 @@ O antigo `BACKLOG-LIST` (140 linhas, 6 seções) foi separado em 2026-10-29 para
 | §3 Definição da fatia Onda 1-Must (MVP mínimo) | [escopo-onda-1](../escopo-onda-1.md) |
 | §4 Decisões registradas | [DECISOES-BACKLOG](DECISOES-BACKLOG.md) (D-01…D-14) |
 | §5 Próximo passo | [sprints/README](../sprints/README.md) |
-| §6.1 Tipos e IDs | [padrão de identificação](https://github.com/fbso-techservice/platform/blob/main/standards/engineering/padrao-identificacao-entidades.md) |
+| §6.1 Tipos e IDs | [padrão de identificação](https://github.com/fbso-techservice/platform-standards/blob/main/standards/engineering/padrao-identificacao-entidades.md) |
 | §6.2 Enablers | [sprint-1-fundacao](../sprints/sprint-1-fundacao.md) |
 | §6.3 Architectural Runways | [arquitetura/runways](../../prj-tecnico/runways/README.md) |
 | §6.4 Quadros de débito/bug/incidente | tabela de itens do [BACKLOG-LIST](BACKLOG-LIST.md) |

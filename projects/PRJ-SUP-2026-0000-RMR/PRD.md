@@ -19,7 +19,7 @@
 
 ## 5. Estrutura de Engenharia e TI (fase de implementação)
 
-> 💡 Diretrizes de arquitetura (API-First, `tenant_id`, SSO, API REST aberta) vivem na platform: [diretrizes-arquitetura](https://github.com/fbso-techservice/platform/blob/main/standards/architecture/diretrizes-arquitetura.md).
+> 💡 Diretrizes de arquitetura (API-First, `tenant_id`, SSO, API REST aberta) vivem na platform-standards: [diretrizes-arquitetura](https://github.com/fbso-techservice/platform-standards/blob/main/standards/architecture/diretrizes-arquitetura.md).
 > Detalhamento técnico do produto: [docs/tecnico/arquitetura/](../../docs/tecnico/arquitetura/).
 
 ## 6. Mapa de documentos
@@ -39,4 +39,4 @@
 | Projeto | Enablers e runways | [prj-tecnico/enablers/](prj-tecnico/enablers/) · [runways/](prj-tecnico/runways/) |
 | Projeto | Hub de pendências | [pendencias.md](pendencias.md) |
 | Projeto | Equipe | [equipe.md](equipe.md) |
-| Processo | Padrões ágeis (INVEST, WSJF, MoSCoW, templates) | [platform/standards/process/](https://github.com/fbso-techservice/platform/tree/main/standards/process) |
+| Processo | Padrões ágeis (INVEST, WSJF, MoSCoW, templates) | [platform-standards/standards/process/](https://github.com/fbso-techservice/platform-standards/tree/main/standards/process) |

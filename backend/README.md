@@ -12,7 +12,7 @@ arquitetura hexagonal por módulo.
 
 ## Guardrails
 
-Ver `platform/standards/architecture/` (monólito modular, multi-tenant, eventos/Outbox).
+Ver `platform-standards/standards/architecture/` (monólito modular, multi-tenant, eventos/Outbox).
 
 ## Módulos (bounded contexts)
 

@@ -8,7 +8,7 @@
 | **Data-alvo** | MVP (Onda 2-Should (MVP completo)) — rolling wave |
 | **Estimativa** | 5 pontos |
 | **Rastreio** | R23 (validar o identificador — NDS/IMEI no pedido — em black list, scrap ou boomerang na triagem) |
-| **Versão** | 1.1 — layout INVEST/Gherkin ([guia ágil §5](https://github.com/fbso-techservice/platform/blob/main/standards/process/guia-invest-enablers-spike.md)) |
+| **Versão** | 1.1 — layout INVEST/Gherkin ([guia ágil §5](https://github.com/fbso-techservice/platform-standards/blob/main/standards/process/guia-invest-enablers-spike.md)) |
 | **Status** | 📝 Rascunho (2026-10-16) |
 
 ---
@@ -60,4 +60,4 @@
 
 ---
 
-**Verificação INVEST** ([guia ágil §1](https://github.com/fbso-techservice/platform/blob/main/standards/process/guia-invest-enablers-spike.md)): **I** ✅ roda sobre a leitura existente; independente da FEATURE-0001.0004 (cen. 5) · **N** ✅ parâmetro do boomerang definido (ver cen. 3) · **V** ✅ MVP Core do [BRAINSTORM §4.2](../discovery/BRAINSTORM.md) (PENDENCY-0001) · **E** ✅ 5 pontos (parâmetros definidos — sem bloqueio à estimativa) · **S** ✅ cabe numa Sprint · **T** ✅ 5 cenários testáveis.
+**Verificação INVEST** ([guia ágil §1](https://github.com/fbso-techservice/platform-standards/blob/main/standards/process/guia-invest-enablers-spike.md)): **I** ✅ roda sobre a leitura existente; independente da FEATURE-0001.0004 (cen. 5) · **N** ✅ parâmetro do boomerang definido (ver cen. 3) · **V** ✅ MVP Core do [BRAINSTORM §4.2](../discovery/BRAINSTORM.md) (PENDENCY-0001) · **E** ✅ 5 pontos (parâmetros definidos — sem bloqueio à estimativa) · **S** ✅ cabe numa Sprint · **T** ✅ 5 cenários testáveis.

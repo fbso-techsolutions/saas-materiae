@@ -1,6 +1,6 @@
 # 🗓️ Sprint 1 — Fundação (Enablers) · 19/10 – 30/10/2026
 
-> **Sprint de preparação pura:** 100% da capacidade em Enablers — nenhuma feature de negócio entra. Objetivo: ao final da sprint, **toda a base técnica da Onda 1-Must (MVP mínimo) existir e estar validada**, para que as stories 0001–0013 comecem na Sprint 2 (02/11) sem retrabalho. Regras: [guia ágil §3–§4](https://github.com/fbso-techservice/platform/blob/main/standards/process/guia-invest-enablers-spike.md) · [template de documento de Enabler](https://github.com/fbso-techservice/platform/blob/main/standards/process/template-enabler-dor.md) · [inventário dos Enablers](#1-inventário-dos-enablers).
+> **Sprint de preparação pura:** 100% da capacidade em Enablers — nenhuma feature de negócio entra. Objetivo: ao final da sprint, **toda a base técnica da Onda 1-Must (MVP mínimo) existir e estar validada**, para que as stories 0001–0013 comecem na Sprint 2 (02/11) sem retrabalho. Regras: [guia ágil §3–§4](https://github.com/fbso-techservice/platform-standards/blob/main/standards/process/guia-invest-enablers-spike.md) · [template de documento de Enabler](https://github.com/fbso-techservice/platform-standards/blob/main/standards/process/template-enabler-dor.md) · [inventário dos Enablers](#1-inventário-dos-enablers).
 
 | Campo | Valor |
 |---|---|
@@ -16,12 +16,12 @@
 
 ## 1. Inventário dos Enablers
 
-> **Inventário dos Enablers que precisam existir para o projeto poder começar** — o que alguns times chamam de "Sprint-0", "Sprint Inicial" ou "Sprint de Fundação". Este inventário **só lista e rastreia**: o detalhamento de cada Enabler mora em **documento individual** ([template Enabler · DoR](https://github.com/fbso-techservice/platform/blob/main/standards/process/template-enabler-dor.md)) e a priorização/estimativa, nos documentos de avaliação da pasta técnica ([WSJF](../../prj-tecnico/enablers/wsjf-enablers-iniciais.md) · [DoR](../../prj-tecnico/enablers/dor-enablers.md)).
+> **Inventário dos Enablers que precisam existir para o projeto poder começar** — o que alguns times chamam de "Sprint-0", "Sprint Inicial" ou "Sprint de Fundação". Este inventário **só lista e rastreia**: o detalhamento de cada Enabler mora em **documento individual** ([template Enabler · DoR](https://github.com/fbso-techservice/platform-standards/blob/main/standards/process/template-enabler-dor.md)) e a priorização/estimativa, nos documentos de avaliação da pasta técnica ([WSJF](../../prj-tecnico/enablers/wsjf-enablers-iniciais.md) · [DoR](../../prj-tecnico/enablers/dor-enablers.md)).
 > **Escopo:** somente o que **bloqueia o início** das primeiras stories da Onda 1-Must (MVP mínimo) (0001–0013) ou é pré-requisito explícito decidido em gate. **Fonte:** gate de arquitetura 9/9 (PENDENCY-0015 → [checklist Tech lead/Arquiteto](../../prj-tecnico/checklist-arquitetura-onda-1.md), ADR-012) · [escopo da Onda 1-Must (MVP mínimo)](../escopo-onda-1.md) / [decisão D-09](../backlog/DECISOES-BACKLOG.md) · [equipe §3](../../equipe.md) · follow-ups do checklist. **Visão única de todo o trabalho (stories · enablers · tasks · débito/bugs):** [backlog](../backlog/BACKLOG-LIST.md).
 
 ### 1.1 Por que estes itens antes das features
 
-Pelo **sequenciamento lógico** do [guia §4.3](https://github.com/fbso-techservice/platform/blob/main/standards/process/guia-invest-enablers-spike.md): as stories 0001–0013 da Onda 1-Must (MVP mínimo) **não podem existir** sem a base (roda, identidade, banco com RLS, workflow, auditoria, terminais). O backlog da Sprint 1 já registra **+4 Architectural Runways** vindas do gate de arquitetura ([decisão D-09](../backlog/DECISOES-BACKLOG.md) e [backlog](../backlog/BACKLOG-LIST.md)) — este inventário **completa e detalha** o que foi decidido como "antes da Sprint 1" nos itens A2/C1/C2/C4, para que o planning decida fatiamento e ordem com tudo visível.
+Pelo **sequenciamento lógico** do [guia §4.3](https://github.com/fbso-techservice/platform-standards/blob/main/standards/process/guia-invest-enablers-spike.md): as stories 0001–0013 da Onda 1-Must (MVP mínimo) **não podem existir** sem a base (roda, identidade, banco com RLS, workflow, auditoria, terminais). O backlog da Sprint 1 já registra **+4 Architectural Runways** vindas do gate de arquitetura ([decisão D-09](../backlog/DECISOES-BACKLOG.md) e [backlog](../backlog/BACKLOG-LIST.md)) — este inventário **completa e detalha** o que foi decidido como "antes da Sprint 1" nos itens A2/C1/C2/C4, para que o planning decida fatiamento e ordem com tudo visível.
 
 ### 1.2 Inventário — 10 Enablers iniciais
 
@@ -80,7 +80,7 @@ Registrados aqui para não poluir o inventário inicial (evita "só enabler, sem
 
 ## 2. Análise das possibilidades — corte
 
-Três possibilidades avaliadas (as opções (a)/(b)/(c) abaixo) contra a restrição real: **10 dias úteis × carga por pessoa**, não o total de pontos (os **26 pontos de Enabler** — soma dos Job Sizes propostos na [tabela WSJF](../../prj-tecnico/enablers/wsjf-enablers-iniciais.md) — distribuem de forma muito desigual — [guia §4.1](https://github.com/fbso-techservice/platform/blob/main/standards/process/guia-invest-enablers-spike.md)). A escala de Job Size é própria de Enabler e não converte para SP; a capacidade de stories está em [equipe §3.2](../../equipe.md).
+Três possibilidades avaliadas (as opções (a)/(b)/(c) abaixo) contra a restrição real: **10 dias úteis × carga por pessoa**, não o total de pontos (os **26 pontos de Enabler** — soma dos Job Sizes propostos na [tabela WSJF](../../prj-tecnico/enablers/wsjf-enablers-iniciais.md) — distribuem de forma muito desigual — [guia §4.1](https://github.com/fbso-techservice/platform-standards/blob/main/standards/process/guia-invest-enablers-spike.md)). A escala de Job Size é própria de Enabler e não converte para SP; a capacidade de stories está em [equipe §3.2](../../equipe.md).
 
 | Opção | Descrição | Carga no gargalo | Veredito |
 |---|---|---|---|

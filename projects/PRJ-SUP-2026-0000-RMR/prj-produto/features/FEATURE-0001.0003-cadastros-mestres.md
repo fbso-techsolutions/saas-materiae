@@ -36,7 +36,7 @@ Centralizar o **cadastro das listas mestres** que as telas operacionais consulta
 | BR-1.3.1 | Telas operacionais (recebimento, teste, OS, reciclagem) **selecionam** itens das listas mestres — sem texto livre para dados classificáveis |
 | BR-1.3.2 | Item de cadastro nunca é **excluído** — apenas **desativado** (some das escolhas novas, preserva histórico/auditoria) |
 | BR-1.3.3 | **Modelo de equipamento** (R15): código do ERP + descrição + fornecedor + **lei de formação dos identificadores físicos e do NDS** (por tipo/modelo — [catálogo §5.1](../../../../docs/negocio/taxonomia-entidades-cadastro-ativos.md)) + categoria/tipo (FK → [taxonomia](../../../../docs/negocio/taxonomia-entidades-cadastro-ativos.md)) + **flag de mídia** (alimenta BR-5.5.3/FEATURE-0005.0005) |
-| BR-1.3.4 | O campo de ERP citado em **R15** = **código do ERP corporativo** (genérico — qualquer sistema), conforme decisão de integrações REST abertas ([diretrizes](https://github.com/fbso-techservice/platform/blob/main/standards/architecture/diretrizes-arquitetura.md)) |
+| BR-1.3.4 | O campo de ERP citado em **R15** = **código do ERP corporativo** (genérico — qualquer sistema), conforme decisão de integrações REST abertas ([diretrizes](https://github.com/fbso-techservice/platform-standards/blob/main/standards/architecture/diretrizes-arquitetura.md)) |
 | BR-1.3.5 | **Materiais/insumos** (R16) ficam disponíveis para seleção de **componentes substituídos** na OS (US-FEAT-0002.0001-0006) |
 | BR-1.3.6 | R14 e R18 **não entram** nesta feature — **PENDENCY-0003** (pendência adiada para Onda 2-Should (MVP completo)) |
 

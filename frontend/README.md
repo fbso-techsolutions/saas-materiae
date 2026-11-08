@@ -10,4 +10,4 @@ Frontend do RMR: SPA React 19 + TypeScript (Vite + TanStack Router/Query).
 
 ## Guardrails
 
-Ver `platform/standards/engineering/coding-standards-react.md`.
+Ver `platform-standards/standards/engineering/coding-standards-react.md`.

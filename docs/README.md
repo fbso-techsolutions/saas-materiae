@@ -15,10 +15,10 @@
 
 1. **Um documento vive em um só lugar** — links apontam, nunca copiam.
 2. **"Promover o genérico, manter o específico"** — o que é transversal a mais de um produto
-   sobe para a [`platform`](https://github.com/fbso-techservice/platform).
+   sobe para a [`platform-standards`](https://github.com/fbso-techservice/platform-standards).
 3. **Projeto entrega, produto define** — o que é entrega (PRD, B-REQ, backlog, sprints,
    enablers) vive no projeto; o que é definição (domínio, arquitetura, taxonomia) vive aqui.
 
 ## Padrões transversais
 
-Processo, engenharia, arquitetura e segurança genéricos: [platform/standards/](https://github.com/fbso-techservice/platform/tree/main/standards).
+Processo, engenharia, arquitetura e segurança genéricos: [platform-standards/standards/](https://github.com/fbso-techservice/platform-standards/tree/main/standards).

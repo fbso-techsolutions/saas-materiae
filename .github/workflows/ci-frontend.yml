@@ -1,5 +1,5 @@
 # CI Frontend — thin wrapper que chama a plataforma
-# A lógica de build real vive em platform/.github/workflows/build-react.yml
+# A lógica de build real vive em platform-standards/.github/workflows/build-react.yml
 name: CI Frontend
 
 on:
@@ -9,4 +9,4 @@ on:
 
 jobs:
   call-platform:
-    uses: fbso-techservice/platform/.github/workflows/build-react.yml@main
+    uses: fbso-techservice/platform-standards/.github/workflows/build-react.yml@main

@@ -1,6 +1,6 @@
 # 🚦 Definition of Ready (DoR) — Enablers iniciais (ENABLER-0001 … ENABLER-0010)
 
-> **Orientação para o time:** um Enabler **só pode ser puxado para o Sprint Planning** após **todos os 8 itens obrigatórios** receberem `[x]` **e** a estimativa estar consolidada. Item não marcado ⇒ volta para o refinamento. Checklist padrão: [template Enabler · DoR §2](https://github.com/fbso-techservice/platform/blob/main/standards/process/template-enabler-dor.md).
+> **Orientação para o time:** um Enabler **só pode ser puxado para o Sprint Planning** após **todos os 8 itens obrigatórios** receberem `[x]` **e** a estimativa estar consolidada. Item não marcado ⇒ volta para o refinamento. Checklist padrão: [template Enabler · DoR §2](https://github.com/fbso-techservice/platform-standards/blob/main/standards/process/template-enabler-dor.md).
 
 | Campo | Valor |
 |---|---|
@@ -32,7 +32,7 @@
 
 Os 10 Enablers estavam **7/8**: faltava o item **"Estimável"**, porque os Job Sizes dos cards e da [tabela WSJF](wsjf-enablers-iniciais.md) eram **propostas do PO/Tech Lead**.
 
-**Decisão (2026-10-22):** a proposta é **adotada como consolidada**; a escala de Job Size de Enabler é **própria e relativa** e **não converte** para Story Point ([guia WSJF §6](https://github.com/fbso-techservice/platform/blob/main/standards/process/guia-wsjf-priorizacao.md)). Os valores permanecem na [tabela WSJF](wsjf-enablers-iniciais.md) (aponta, não copia) e a **capacidade de stories** da Sprint 1 está em [equipe §3.2](../../equipe.md).
+**Decisão (2026-10-22):** a proposta é **adotada como consolidada**; a escala de Job Size de Enabler é **própria e relativa** e **não converte** para Story Point ([guia WSJF §6](https://github.com/fbso-techservice/platform-standards/blob/main/standards/process/guia-wsjf-priorizacao.md)). Os valores permanecem na [tabela WSJF](wsjf-enablers-iniciais.md) (aponta, não copia) e a **capacidade de stories** da Sprint 1 está em [equipe §3.2](../../equipe.md).
 
 **Resultado:** os 10 Enablers estão **8/8 e aptos a entrar no Sprint Planning**. Mudança de contexto devolve os pontos ao refinamento (regra de ouro §4).
 
@@ -57,5 +57,5 @@ Os 10 Enablers estavam **7/8**: faltava o item **"Estimável"**, porque os Job S
 
 1. **DoR incompleto não entra em Sprint** — sem exceção; o que falta volta ao refinamento com dono e data.
 2. **Enabler sem "habilita" explícito é suspeito** — valor de negócio mal disfarçado ou débito sem rastreabilidade: descartar ou reescrever.
-3. **Spike = timebox + critério de saída** — nunca "pesquisar até achar" ([guia §3.6](https://github.com/fbso-techservice/platform/blob/main/standards/process/guia-invest-enablers-spike.md)).
+3. **Spike = timebox + critério de saída** — nunca "pesquisar até achar" ([guia §3.6](https://github.com/fbso-techservice/platform-standards/blob/main/standards/process/guia-invest-enablers-spike.md)).
 4. **Pontuação WSJF é proposta, calibrada na reunião e revisada** quando o contexto mudar.

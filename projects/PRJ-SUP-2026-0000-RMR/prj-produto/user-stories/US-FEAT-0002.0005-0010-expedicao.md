@@ -8,7 +8,7 @@
 | **Data-alvo** | Sprint 2 (Onda 1-Must (MVP mínimo)) |
 | **Estimativa** | 4 pontos |
 | **Rastreio** | Workflow · R36 (pallet por leitura), R37 (NF de saída e data) |
-| **Versão** | 1.1 — layout INVEST/Gherkin ([guia ágil §5](https://github.com/fbso-techservice/platform/blob/main/standards/process/guia-invest-enablers-spike.md)) |
+| **Versão** | 1.1 — layout INVEST/Gherkin ([guia ágil §5](https://github.com/fbso-techservice/platform-standards/blob/main/standards/process/guia-invest-enablers-spike.md)) |
 | **Status** | 📝 Rascunho (2026-10-16) |
 
 ---
@@ -57,4 +57,4 @@
 
 ---
 
-**Verificação INVEST** ([guia ágil §1](https://github.com/fbso-techservice/platform/blob/main/standards/process/guia-invest-enablers-spike.md)): **I** ✅ extraída da FEATURE-0002.0001 justamente para ser planejável isolada (PENDENCY-0004) · **N** ✅ regras de pallet/NF conversadas (checklist B1/C2) · **V** ✅ expedição conferida e rastreada (R36/R37) · **E** ✅ 4 pontos · **S** ✅ cabe numa Sprint · **T** ✅ 4 cenários testáveis.
+**Verificação INVEST** ([guia ágil §1](https://github.com/fbso-techservice/platform-standards/blob/main/standards/process/guia-invest-enablers-spike.md)): **I** ✅ extraída da FEATURE-0002.0001 justamente para ser planejável isolada (PENDENCY-0004) · **N** ✅ regras de pallet/NF conversadas (checklist B1/C2) · **V** ✅ expedição conferida e rastreada (R36/R37) · **E** ✅ 4 pontos · **S** ✅ cabe numa Sprint · **T** ✅ 4 cenários testáveis.
