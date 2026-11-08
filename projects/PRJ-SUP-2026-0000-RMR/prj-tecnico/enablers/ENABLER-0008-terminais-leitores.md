@@ -14,7 +14,7 @@
 
 ## 1. Visão Geral e Contexto
 
-- **Categoria:** Infraestrutura + Exploração (spike de validação — [guia §3](https://github.com/fbso-techservice/platform-standards/blob/main/standards/process/guia-invest-enablers-spike.md))
+- **Categoria:** Infraestrutura + Exploração (spike de validação — [guia §3](https://github.com/fbso-techservice/platform-standards/blob/main/standards/agile/guia-invest-enablers-spike.md))
 - **Origem:** C2 (Checklist de Arquitetura) — decisão "leitor USB HID com driver zero de fábrica; Bluetooth só em modo HID (não SPP)"; decisão "validar leitura + campo focado + atalhos em Firefox e Chrome antes da Sprint 1"; decisão 5 (smart card = registro manual por operador).
 - **Status de Bloqueio:** **Bloqueia o desenho real das stories 0004–0010.** Sem confirmar que o leitor emula teclado no terminal da oficina, o "campo sempre focado" e a UI keyboard-first são hipótese — e hipótese errada custa refatoração de todas as telas.
 

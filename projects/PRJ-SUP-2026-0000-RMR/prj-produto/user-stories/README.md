@@ -1,10 +1,10 @@
 # 💬 User Stories
 
-> Histórias no **padrão INVEST/Gherkin** do [guia ágil §5](https://github.com/fbso-techservice/platform-standards/blob/main/standards/process/guia-invest-enablers-spike.md): declaração (Como/quero/para) + cenários comportamentais nomeados (Dado/Quando/Então) + regras de negócio (BR-xxx) + faixa de verificação INVEST. Cada story referencia **feature + B-REQ/R** (rastreabilidade) e pode ser copiada para a ferramenta ágil (Jira/Trello) mantendo o ID.
+> Histórias no **padrão INVEST/Gherkin** do [guia ágil §5](https://github.com/fbso-techservice/platform-standards/blob/main/standards/agile/guia-invest-enablers-spike.md): declaração (Como/quero/para) + cenários comportamentais nomeados (Dado/Quando/Então) + regras de negócio (BR-xxx) + faixa de verificação INVEST. Cada story referencia **feature + B-REQ/R** (rastreabilidade) e pode ser copiada para a ferramenta ágil (Jira/Trello) mantendo o ID.
 >
 > As 13 stories da Onda 1-Must (MVP mínimo) (0001–0013) começam na Sprint 2 (02/11) e seguem até S5 — 45 SP ÷ 14 SP/sprint ([fatiamento validado](../escopo-onda-1.md) — PENDENCY-0032 ✅); a Sprint 1 é só de Enablers.
 
-> 📌 **Priorização de Stories (nível Time):** ordenar por valor/urgência/risco vs. esforço com o [guia WSJF de priorização](https://github.com/fbso-techservice/platform-standards/blob/main/standards/process/guia-wsjf-priorizacao.md). Stories e Enabler Stories competem só entre si (nunca com Features).
+> 📌 **Priorização de Stories (nível Time):** ordenar por valor/urgência/risco vs. esforço com o [guia WSJF de priorização](https://github.com/fbso-techservice/platform-standards/blob/main/standards/agile/guia-wsjf-priorizacao.md). Stories e Enabler Stories competem só entre si (nunca com Features).
 
 | 💬 ID | História | Feature | Prioridade | Est. | Status |
 |---|---|---|---|---|---|
@@ -30,7 +30,7 @@
 | [US-FEAT-0001.0005-0020](US-FEAT-0001.0005-0020-cadastro-watchlist.md) | Cadastrar e gerenciar a watchlist | FEATURE-0001.0005 | Should (Onda 2-Should (MVP completo)) | 3 | 📝 Rascunho |
 | [US-FEAT-0001.0005-0021](US-FEAT-0001.0005-0021-validacao-watchlist-triagem.md) | Validar o identificador físico na triagem contra a watchlist | FEATURE-0001.0005 | Should (Onda 2-Should (MVP completo)) | 5 | 📝 Rascunho |
 
-**Convenção (padrão ágil — [guia §5](https://github.com/fbso-techservice/platform-standards/blob/main/standards/process/guia-invest-enablers-spike.md)):** `US-FEAT-{codigo-feature}-{SSSS}-{nome-da-historia}.md` — `SSSS` é o **sequencial global** (0001–9999, não reinicia por feature). Lotes atuais: FEATURE-0001.0001 = 0001–0003 · FEATURE-0002.0001 = 0004–0009 · **FEATURE-0002.0005 = 0010** · FEATURE-0005.0005 = 0011–0013 · FEATURE-0001.0003 = 0014–0017 · FEATURE-0001.0004 = 0018–0019 · FEATURE-0001.0005 = 0020–0021 · próxima numeração: **0022** (próximas Onda 2-Should (MVP completo), rolling wave).
+**Convenção (padrão ágil — [guia §5](https://github.com/fbso-techservice/platform-standards/blob/main/standards/agile/guia-invest-enablers-spike.md)):** `US-FEAT-{codigo-feature}-{SSSS}-{nome-da-historia}.md` — `SSSS` é o **sequencial global** (0001–9999, não reinicia por feature). Lotes atuais: FEATURE-0001.0001 = 0001–0003 · FEATURE-0002.0001 = 0004–0009 · **FEATURE-0002.0005 = 0010** · FEATURE-0005.0005 = 0011–0013 · FEATURE-0001.0003 = 0014–0017 · FEATURE-0001.0004 = 0018–0019 · FEATURE-0001.0005 = 0020–0021 · próxima numeração: **0022** (próximas Onda 2-Should (MVP completo), rolling wave).
 
 > 🔄 **Migração 2026-10-19** — as 21 stories migraram da convenção `US-NNN` para `US-FEAT-{feature}-{SSSS}` e do formato "Critérios Given/When/Then" para o layout INVEST/Gherkin completo (declaração + cenários nomeados + regras + faixa INVEST). **O SSSS preserva o número antigo** (ex-US-001 = 0001), mantendo a rastreabilidade de todas as referências externas. Conteúdo de negócio inalterado — apenas reestruturação.
 

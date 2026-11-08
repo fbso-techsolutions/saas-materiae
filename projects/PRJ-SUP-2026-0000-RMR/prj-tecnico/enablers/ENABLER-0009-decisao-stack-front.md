@@ -14,7 +14,7 @@
 
 ## 1. Visão Geral e Contexto
 
-- **Categoria:** Exploração (Spike de decisão — [guia §3](https://github.com/fbso-techservice/platform-standards/blob/main/standards/process/guia-invest-enablers-spike.md))
+- **Categoria:** Exploração (Spike de decisão — [guia §3](https://github.com/fbso-techservice/platform-standards/blob/main/standards/agile/guia-invest-enablers-spike.md))
 - **Origem:** follow-up de C4 no checklist de arquitetura: a stack de front é a **última decisão aberta** antes do início do front; guardrails do projeto (API-First, SPA leve, entrega via Compose) precisam orientar a escolha.
 - **Status de Bloqueio:** **Bloqueia o início de toda a construção de front.** Escolher errado (ou tarde) significa reescrever app shell, roteamento e chamadas de API — refatoração do trabalho inteiro da Onda 1-Must (MVP mínimo).
 

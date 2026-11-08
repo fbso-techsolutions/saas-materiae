@@ -39,4 +39,4 @@
 | Projeto | Enablers e runways | [prj-tecnico/enablers/](prj-tecnico/enablers/) · [runways/](prj-tecnico/runways/) |
 | Projeto | Hub de pendências | [pendencias.md](pendencias.md) |
 | Projeto | Equipe | [equipe.md](equipe.md) |
-| Processo | Padrões ágeis (INVEST, WSJF, MoSCoW, templates) | [platform-standards/standards/process/](https://github.com/fbso-techservice/platform-standards/tree/main/standards/process) |
+| Processo | Padrões ágeis (INVEST, WSJF, MoSCoW, templates) | [platform-standards/standards/agile/](https://github.com/fbso-techservice/platform-standards/tree/main/standards/agile) |

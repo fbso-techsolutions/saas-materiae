@@ -2,7 +2,7 @@
 
 > **O que é.** A **fonte única** da cadeia **B-REQ/R → Épico → Feature → Story → Sprint → Task → Release/Build/Deploy** (e vice-versa). **Visão individualizada:** uma linha por *(requisito → feature → story → sprint)* — sempre que um requisito se divide em mais de uma feature/story, ganha uma linha própria. A coluna `Check` dá o ciclo de vida: olhando a matriz você vê **todo o escopo** e o que está 🚩/💡/👷/🏁/🚫. **Aponta, não copia:** células = ID/link; a especificação mora no documento do item.
 >
-> **Origem:** evoluiu do antigo `mapeamento-epicos-features.md` (migrado via `git mv` em 2026-11-03). **Padrão genérico:** [template-matriz-rastreabilidade-v1](https://github.com/fbso-techservice/platform-standards/blob/main/standards/process/template-matriz-rastreabilidade-v1.md) · **Convenção de ID:** [padrão de identificação](https://github.com/fbso-techservice/platform-standards/blob/main/standards/engineering/padrao-identificacao-entidades.md) · **Status:** 📝 Em evolução (2026-11-03).
+> **Origem:** evoluiu do antigo `mapeamento-epicos-features.md` (migrado via `git mv` em 2026-11-03). **Padrão genérico:** [template-matriz-rastreabilidade-v1](https://github.com/fbso-techservice/platform-standards/blob/main/standards/agile/template-matriz-rastreabilidade-v1.md) · **Convenção de ID:** [padrão de identificação](https://github.com/fbso-techservice/platform-standards/blob/main/standards/engineering/padrao-identificacao-entidades.md) · **Status:** 📝 Em evolução (2026-11-03).
 
 ---
 

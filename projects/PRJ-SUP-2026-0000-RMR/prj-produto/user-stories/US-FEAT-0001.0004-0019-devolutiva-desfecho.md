@@ -8,7 +8,7 @@
 | **Data-alvo** | MVP (Onda 2-Should (MVP completo)) — rolling wave |
 | **Estimativa** | 4 pontos |
 | **Rastreio** | R48 (cadastro mestre: informar os identificadores que retornam do campo, sucateados e expedidos) |
-| **Versão** | 1.1 — layout INVEST/Gherkin ([guia ágil §5](https://github.com/fbso-techservice/platform-standards/blob/main/standards/process/guia-invest-enablers-spike.md)) |
+| **Versão** | 1.1 — layout INVEST/Gherkin ([guia ágil §5](https://github.com/fbso-techservice/platform-standards/blob/main/standards/agile/guia-invest-enablers-spike.md)) |
 | **Status** | 📝 Rascunho (2026-10-16) |
 
 ---
@@ -54,4 +54,4 @@
 
 ---
 
-**Verificação INVEST** ([guia ágil §1](https://github.com/fbso-techservice/platform-standards/blob/main/standards/process/guia-invest-enablers-spike.md)): **I** ✅ acoplada a eventos já existentes, sem stories novas pré-requisito · **N** ✅ idempotência confirmada como regra de negócio (BR-1.4.7 — ver §4) · **V** ✅ fim do retrabalho manual do inventário (R48) · **E** ✅ 4 pontos (sem bloqueio de estimativa) · **S** ✅ cabe numa Sprint · **T** ✅ 4 cenários testáveis.
+**Verificação INVEST** ([guia ágil §1](https://github.com/fbso-techservice/platform-standards/blob/main/standards/agile/guia-invest-enablers-spike.md)): **I** ✅ acoplada a eventos já existentes, sem stories novas pré-requisito · **N** ✅ idempotência confirmada como regra de negócio (BR-1.4.7 — ver §4) · **V** ✅ fim do retrabalho manual do inventário (R48) · **E** ✅ 4 pontos (sem bloqueio de estimativa) · **S** ✅ cabe numa Sprint · **T** ✅ 4 cenários testáveis.

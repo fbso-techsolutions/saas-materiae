@@ -8,7 +8,7 @@
 | **Data-alvo** | MVP (Onda 2-Should (MVP completo)) — rolling wave |
 | **Estimativa** | 4 pontos |
 | **Rastreio** | R17 (validar o identificador — NDS/IMEI no pedido — consultando o cadastro mestre), R22 (validar na base do cadastro mestre na triagem) |
-| **Versão** | 1.1 — layout INVEST/Gherkin ([guia ágil §5](https://github.com/fbso-techservice/platform-standards/blob/main/standards/process/guia-invest-enablers-spike.md)) |
+| **Versão** | 1.1 — layout INVEST/Gherkin ([guia ágil §5](https://github.com/fbso-techservice/platform-standards/blob/main/standards/agile/guia-invest-enablers-spike.md)) |
 | **Status** | 📝 Rascunho (2026-10-16) |
 
 ---
@@ -60,4 +60,4 @@
 
 ---
 
-**Verificação INVEST** ([guia ágil §1](https://github.com/fbso-techservice/platform-standards/blob/main/standards/process/guia-invest-enablers-spike.md)): **I** ✅ complementar à FEATURE-0001.0005, roda sobre leitura já existente · **N** ✅ contrato REST especificado (ver §4) · **V** ✅ consistência do inventário (R17/R22) · **E** ✅ 4 pontos (sem bloqueio de estimativa) · **S** ✅ cabe numa Sprint · **T** ✅ 4 cenários testáveis.
+**Verificação INVEST** ([guia ágil §1](https://github.com/fbso-techservice/platform-standards/blob/main/standards/agile/guia-invest-enablers-spike.md)): **I** ✅ complementar à FEATURE-0001.0005, roda sobre leitura já existente · **N** ✅ contrato REST especificado (ver §4) · **V** ✅ consistência do inventário (R17/R22) · **E** ✅ 4 pontos (sem bloqueio de estimativa) · **S** ✅ cabe numa Sprint · **T** ✅ 4 cenários testáveis.

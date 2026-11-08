@@ -12,7 +12,7 @@
 | 6 | [Board — Sprint 1](board-sprint-0001.md) | **Camada fina do status**: posição, dono, próxima ação e evidência dos 14 itens (10 enablers + 4 runways) · posição confirmada na review de 30/10 ([PENDENCY-0033](../../pendencias.md) ✅) | ✅ Fechado (30/10) |
 | 7 | [Board — Sprint 2](board-sprint-0002.md) | **Camada fina do status**: posição, dono, próxima ação e evidência dos 7 itens (4 stories + 2 enablers + 1 runway) · aberto no planning de 02/11 | 🔄 Em andamento (02–13/11) |
 
-**Convenções desta pasta:** sprint = **2 semanas** (decidida com o PO — [PENDENCY-0016 ✅](../../equipe.md)); capacidade alocada conforme [guia ágil §4](https://github.com/fbso-techservice/platform-standards/blob/main/standards/process/guia-invest-enablers-spike.md) (capacity allocation + WSJF + dependências). Mudou um doc? Atualize este índice e o [PRD §6.2](../../PRD.md) no mesmo passo.
+**Convenções desta pasta:** sprint = **2 semanas** (decidida com o PO — [PENDENCY-0016 ✅](../../equipe.md)); capacidade alocada conforme [guia ágil §4](https://github.com/fbso-techservice/platform-standards/blob/main/standards/agile/guia-invest-enablers-spike.md) (capacity allocation + WSJF + dependências). Mudou um doc? Atualize este índice e o [PRD §6.2](../../PRD.md) no mesmo passo.
 
 ## Board da sprint
 

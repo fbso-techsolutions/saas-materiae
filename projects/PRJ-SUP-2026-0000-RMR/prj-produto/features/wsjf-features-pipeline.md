@@ -1,6 +1,6 @@
 # 📊 Avaliação WSJF · Features do pipeline (nível Programa)
 
-> **Fórmula:** WSJF = CoD ÷ Job Size · **CoD** = Valor de Negócio (A) + Criticidade de Tempo (B) + Redução de Risco / Oportunidade (C) · escala de Fibonacci (1, 2, 3, 5, 8, 13, 20). Método e regra da granularidade (nunca misturar Features com Stories): [guia WSJF de priorização](https://github.com/fbso-techservice/platform-standards/blob/main/standards/process/guia-wsjf-priorizacao.md). Irmão desta tabela: [WSJF dos Enablers](../../prj-tecnico/enablers/wsjf-enablers-iniciais.md).
+> **Fórmula:** WSJF = CoD ÷ Job Size · **CoD** = Valor de Negócio (A) + Criticidade de Tempo (B) + Redução de Risco / Oportunidade (C) · escala de Fibonacci (1, 2, 3, 5, 8, 13, 20). Método e regra da granularidade (nunca misturar Features com Stories): [guia WSJF de priorização](https://github.com/fbso-techservice/platform-standards/blob/main/standards/agile/guia-wsjf-priorizacao.md). Irmão desta tabela: [WSJF dos Enablers](../../prj-tecnico/enablers/wsjf-enablers-iniciais.md).
 
 | Campo | Valor |
 |---|---|
@@ -61,8 +61,8 @@ O WSJF ordena **"o que vale mais a pena"**; o sequenciamento lógico ordena **"o
 
 ## 4. Regras de uso
 
-1. **Pontuar junto:** produto + técnica calibram os números **relativamente entre si** (não há ponto absoluto · [guia WSJF §1](https://github.com/fbso-techservice/platform-standards/blob/main/standards/process/guia-wsjf-priorizacao.md)).
+1. **Pontuar junto:** produto + técnica calibram os números **relativamente entre si** (não há ponto absoluto · [guia WSJF §1](https://github.com/fbso-techservice/platform-standards/blob/main/standards/agile/guia-wsjf-priorizacao.md)).
 2. **Toda pontuação é proposta:** esta tabela entra na reunião como rascunho e sai revisada · registrar mudanças no [registro de decisões](../backlog/DECISOES-BACKLOG.md).
-3. **Job Size de feature é range relativo:** features ainda não têm stories; estimar por **faixa** (ex.: 5–8) e fixar o ponto na reunião, ancorado a uma feature de referência ([guia §6](https://github.com/fbso-techservice/platform-standards/blob/main/standards/process/guia-wsjf-priorizacao.md)).
+3. **Job Size de feature é range relativo:** features ainda não têm stories; estimar por **faixa** (ex.: 5–8) e fixar o ponto na reunião, ancorado a uma feature de referência ([guia §6](https://github.com/fbso-techservice/platform-standards/blob/main/standards/agile/guia-wsjf-priorizacao.md)).
 4. **Repontuar quando o contexto mudar** (feature sai do pipeline, dependência removida, risco novo) · WSJF não é eterno.
-5. **Cruzamento obrigatório com a matriz de decisão** ([guia INVEST §4.4](https://github.com/fbso-techservice/platform-standards/blob/main/standards/process/guia-invest-enablers-spike.md)) como conferência: bloqueia entrega crítica ⇒ máxima · reduz risco grave ⇒ alta · melhoria desejável ⇒ baixa.
+5. **Cruzamento obrigatório com a matriz de decisão** ([guia INVEST §4.4](https://github.com/fbso-techservice/platform-standards/blob/main/standards/agile/guia-invest-enablers-spike.md)) como conferência: bloqueia entrega crítica ⇒ máxima · reduz risco grave ⇒ alta · melhoria desejável ⇒ baixa.

@@ -8,7 +8,7 @@
 | **Data-alvo** | Sprint 2 (Onda 1-Must (MVP mínimo)) |
 | **Estimativa** | 4 pontos |
 | **Rastreio** | B-REQ-01 · R20, R21 |
-| **Versão** | 1.1 — layout INVEST/Gherkin ([guia ágil §5](https://github.com/fbso-techservice/platform-standards/blob/main/standards/process/guia-invest-enablers-spike.md)) |
+| **Versão** | 1.1 — layout INVEST/Gherkin ([guia ágil §5](https://github.com/fbso-techservice/platform-standards/blob/main/standards/agile/guia-invest-enablers-spike.md)) |
 | **Status** | ✅ Revisado (2026-11-05) |
 
 ---
@@ -54,4 +54,4 @@
 
 ---
 
-**Verificação INVEST** ([guia ágil §1](https://github.com/fbso-techservice/platform-standards/blob/main/standards/process/guia-invest-enablers-spike.md)): **I** ✅ entregável isolada (nenhuma outra story depende dela para *ser entregue*) · **N** ✅ detalhe na conversa com o PO · **V** ✅ item rastreado desde a entrada (B-REQ-01) · **E** ✅ escopo fechado, 4 pontos · **S** ✅ cabe numa Sprint · **T** ✅ 4 cenários testáveis.
+**Verificação INVEST** ([guia ágil §1](https://github.com/fbso-techservice/platform-standards/blob/main/standards/agile/guia-invest-enablers-spike.md)): **I** ✅ entregável isolada (nenhuma outra story depende dela para *ser entregue*) · **N** ✅ detalhe na conversa com o PO · **V** ✅ item rastreado desde a entrada (B-REQ-01) · **E** ✅ escopo fechado, 4 pontos · **S** ✅ cabe numa Sprint · **T** ✅ 4 cenários testáveis.

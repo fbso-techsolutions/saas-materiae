@@ -2,7 +2,7 @@
 
 > Cada feature Onda 1-Must (MVP mínimo)/Onda 2-Should (MVP completo)/Onda 3-Could (Integração & Valor) ganha um **feature card**: objetivo, escopo, regras de negócio, fluxo, stories e definition of done. Índice geral: [mapeamento de épicos](../rastreabilidade.md).
 
-> 📌 **Priorização de Features (nível Programa):** ordenar por valor/urgência/risco vs. esforço com o [guia WSJF de priorização](https://github.com/fbso-techservice/platform-standards/blob/main/standards/process/guia-wsjf-priorizacao.md) · tabela das 13 features do pipeline: [wsjf-features-pipeline](wsjf-features-pipeline.md). Features competem só entre si (nunca com Stories).
+> 📌 **Priorização de Features (nível Programa):** ordenar por valor/urgência/risco vs. esforço com o [guia WSJF de priorização](https://github.com/fbso-techservice/platform-standards/blob/main/standards/agile/guia-wsjf-priorizacao.md) · tabela das 13 features do pipeline: [wsjf-features-pipeline](wsjf-features-pipeline.md). Features competem só entre si (nunca com Stories).
 
 | Documento | Épico | Prioridade | Status |
 |---|---|---|---|
