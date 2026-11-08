@@ -1,7 +1,7 @@
 # 📚 Backlog — lista única
 
 > **O que é:** a lista de itens executáveis do projeto — um item por linha. **Feature e épico são hierarquia, não item** (o vínculo está no ID `US-FEAT-{feature}-{SSSS}` e no card); a lista opera no nível em que a sprint trabalha: **User Story**, Enabler, Architectural Runway e ocorrências.
-> **O que não é:** critérios de priorização ([README da pasta](README.md)) · decisões de escopo ([DECISOES-BACKLOG.md](DECISOES-BACKLOG.md)) · definição da Onda 1-Must (MVP mínimo) ([escopo-onda-1](../escopo-onda-1.md)) · tipos e IDs ([padrão de identificação](https://github.com/fbso-techservice/platform-standards/blob/main/standards/engineering/padrao-identificacao-entidades.md)) · especificação de cada item (documento próprio — **aponta, não copia**).
+> **O que não é:** critérios de priorização ([README da pasta](README.md)) · decisões de escopo ([DECISOES-BACKLOG.md](DECISOES-BACKLOG.md)) · definição da Onda 1-Must (MVP mínimo) ([escopo-onda-1](../escopo-onda-1.md)) · tipos e IDs ([padrão de identificação](https://github.com/fbso-techservice/platform-standards/blob/main/standards/agile/padrao-identificacao-entidades.md)) · especificação de cada item (documento próprio — **aponta, não copia**).
 
 > **Leitura:** status — ⬜ A fazer · 🔄 Em execução · ✅ Entregue · 🕓 Adiada · ❌ Cancelada · cortes — S1 = 19–30/10 · S2 = 02/11 · S3 = 16/11 · S4 = 30/11 · S5 = 14/12 · **Onda 2-Should (MVP completo)** = rolling wave, sem sprint (fatiamento S2–S5 **validado** — [PENDENCY-0032](../../pendencias.md)). Regras e semântica das colunas: [README da pasta](README.md#regras-da-lista).
 

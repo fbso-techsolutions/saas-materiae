@@ -29,7 +29,7 @@ A lista tem **um item por linha** e opera no nível em que a sprint trabalha:
 
 | Coluna | Regra |
 |---|---|
-| **Tipo** | `User Story` · `Enabler` · `Architectural Runway` · `Débito técnico` · `Bug` · `Incidente` (taxonomia em [padrão §2](https://github.com/fbso-techservice/platform-standards/blob/main/standards/engineering/padrao-identificacao-entidades.md#2-tabela-mestra-das-entidades)) |
+| **Tipo** | `User Story` · `Enabler` · `Architectural Runway` · `Débito técnico` · `Bug` · `Incidente` (taxonomia em [padrão §2](https://github.com/fbso-techservice/platform-standards/blob/main/standards/agile/padrao-identificacao-entidades.md#2-tabela-mestra-das-entidades)) |
 | **ID** | ID da entidade, sem link — o link fica em `Contexto` |
 | **Título** | descrição curta do item |
 | **Contexto** | **só o link ao documento do item** (`User Story` · `Enabler` · `Architectural Runway`). Sem texto ao lado: a hierarquia vem do ID (`US-FEAT-{feature}-{SSSS}`) e o domínio da runway, do próprio card |
@@ -133,7 +133,7 @@ O antigo `BACKLOG-LIST` (140 linhas, 6 seções) foi separado em 2026-10-29 para
 | §3 Definição da fatia Onda 1-Must (MVP mínimo) | [escopo-onda-1](../escopo-onda-1.md) |
 | §4 Decisões registradas | [DECISOES-BACKLOG](DECISOES-BACKLOG.md) (D-01…D-14) |
 | §5 Próximo passo | [sprints/README](../sprints/README.md) |
-| §6.1 Tipos e IDs | [padrão de identificação](https://github.com/fbso-techservice/platform-standards/blob/main/standards/engineering/padrao-identificacao-entidades.md) |
+| §6.1 Tipos e IDs | [padrão de identificação](https://github.com/fbso-techservice/platform-standards/blob/main/standards/agile/padrao-identificacao-entidades.md) |
 | §6.2 Enablers | [sprint-1-fundacao](../sprints/sprint-1-fundacao.md) |
 | §6.3 Architectural Runways | [arquitetura/runways](../../prj-tecnico/runways/README.md) |
 | §6.4 Quadros de débito/bug/incidente | tabela de itens do [BACKLOG-LIST](BACKLOG-LIST.md) |

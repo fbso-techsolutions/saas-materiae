@@ -14,7 +14,7 @@
 | [FEATURE-0002.0005-expedicao.md](FEATURE-0002.0005-expedicao.md) | 2 | Onda 1-Must (MVP mínimo) *(extraída da FEATURE-0002.0001 — PENDENCY-0004)* | 📝 Rascunho (2026-10-16) |
 | [FEATURE-0005.0005-travas-lgpd-compliance.md](FEATURE-0005.0005-travas-lgpd-compliance.md) | 5 | Onda 1-Must (MVP mínimo) | 📝 Rascunho (2026-10-16) |
 
-**Convenção:** `FEATURE-{épico}.{seq}-nome-da-feature.md` (ex.: [`FEATURE-0001.0001-recebimento-ativos.md`](FEATURE-0001.0001-recebimento-ativos.md)) — padrão: [identificação de entidades](https://github.com/fbso-techservice/platform-standards/blob/main/standards/engineering/padrao-identificacao-entidades.md) · referencia o épico, as B-REQs atendidas e as user stories derivadas (com critérios de aceite em [`../user-stories/`](../user-stories)).
+**Convenção:** `FEATURE-{épico}.{seq}-nome-da-feature.md` (ex.: [`FEATURE-0001.0001-recebimento-ativos.md`](FEATURE-0001.0001-recebimento-ativos.md)) — padrão: [identificação de entidades](https://github.com/fbso-techservice/platform-standards/blob/main/standards/agile/padrao-identificacao-entidades.md) · referencia o épico, as B-REQs atendidas e as user stories derivadas (com critérios de aceite em [`../user-stories/`](../user-stories)).
 
 **Progresso:** 🗂️ **Detalhamento dos cards Onda 1-Must (MVP mínimo) completo — 4 de 4** (FEATURE-0001.0001, FEATURE-0002.0001, **FEATURE-0002.0005**, FEATURE-0005.0005 — cards existem; **conteúdo em 📝 Rascunho**, ver coluna Status) · **Onda 2-Should (MVP completo): 3 de 13 detalhadas** (FEATURE-0001.0003, FEATURE-0001.0004, FEATURE-0001.0005 — triagem) · próximas em rolling wave, na véspera de entrarem em sprint (stories 0022+).
 

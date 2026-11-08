@@ -2,7 +2,7 @@
 
 > **O que é.** A **fonte única** da cadeia **B-REQ/R → Épico → Feature → Story → Sprint → Task → Release/Build/Deploy** (e vice-versa). **Visão individualizada:** uma linha por *(requisito → feature → story → sprint)* — sempre que um requisito se divide em mais de uma feature/story, ganha uma linha própria. A coluna `Check` dá o ciclo de vida: olhando a matriz você vê **todo o escopo** e o que está 🚩/💡/👷/🏁/🚫. **Aponta, não copia:** células = ID/link; a especificação mora no documento do item.
 >
-> **Origem:** evoluiu do antigo `mapeamento-epicos-features.md` (migrado via `git mv` em 2026-11-03). **Padrão genérico:** [template-matriz-rastreabilidade-v1](https://github.com/fbso-techservice/platform-standards/blob/main/standards/agile/template-matriz-rastreabilidade-v1.md) · **Convenção de ID:** [padrão de identificação](https://github.com/fbso-techservice/platform-standards/blob/main/standards/engineering/padrao-identificacao-entidades.md) · **Status:** 📝 Em evolução (2026-11-03).
+> **Origem:** evoluiu do antigo `mapeamento-epicos-features.md` (migrado via `git mv` em 2026-11-03). **Padrão genérico:** [template-matriz-rastreabilidade-v1](https://github.com/fbso-techservice/platform-standards/blob/main/standards/agile/template-matriz-rastreabilidade-v1.md) · **Convenção de ID:** [padrão de identificação](https://github.com/fbso-techservice/platform-standards/blob/main/standards/agile/padrao-identificacao-entidades.md) · **Status:** 📝 Em evolução (2026-11-03).
 
 ---
 
@@ -162,7 +162,7 @@
 
 | Item | Valor |
 |---|---|
-| Convenção de ID | Épico `EPIC-{NNNN}` · Feature `FEATURE-{épico}.{NNNN}` · Story `US-FEAT-{feature}-{SSSS}` — [padrão de identificação](https://github.com/fbso-techservice/platform-standards/blob/main/standards/engineering/padrao-identificacao-entidades.md) |
+| Convenção de ID | Épico `EPIC-{NNNN}` · Feature `FEATURE-{épico}.{NNNN}` · Story `US-FEAT-{feature}-{SSSS}` — [padrão de identificação](https://github.com/fbso-techservice/platform-standards/blob/main/standards/agile/padrao-identificacao-entidades.md) |
 | Totais | **10 B-REQs · 59 requisitos (R) · 5 épicos · 20 features · 21 stories** + 10 enablers + 4 runways |
 | Fontes | [requisitos-negocio](../prj-negocio/requisitos/requisitos-negocio.md) (B-REQ) · [PEDIDO](../prj-negocio/discovery/PEDIDO.md) (R1–R59) · [BACKLOG-LIST](backlog/BACKLOG-LIST.md) (sprint/status) · [decisões](backlog/DECISOES-BACKLOG.md) |
 | Validação | `scripts/check-rastreabilidade.sh` (exit limpo) |
