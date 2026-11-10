@@ -2,7 +2,7 @@
 
 > **O que é:** as iniciativas de base arquitetural da Onda 1-Must (MVP mínimo) que sustentam as features de negócio. Cada uma tem documento próprio (`ARCH-RUNWAY-{NNNN}`) porque é **item rastreável do backlog** — a entrega, porém, é do Enabler correspondente: runway **não é trabalho separado**.
 > **Regra:** o documento registra a capacidade, a origem da decisão e quem entrega; o detalhe técnico e o critério de saída moram no Enabler. **Aponta, não copia.**
-> **Origem:** gate de arquitetura 9/9 (2026-10-19) — [checklist](../checklist-arquitetura-onda-1.md) · [ADR-012](../../../../docs/tecnico/arquitetura/adrs/adr-012-stack-onda-1.md). Lista operacional: [backlog](../../prj-produto/backlog/BACKLOG-LIST.md).
+> **Origem:** gate de arquitetura 9/9 (2026-10-19) — [checklist](../checklist-arquitetura-onda-1.md) · [ADR-012](../../../../docs/tecnico/arquitetura/adrs/adr-012-stack-onda-1.md). Lista operacional: [backlog](../../../../docs/produto/backlog/BACKLOG-LIST.md).
 
 | ID | Architectural Runway | Domínio | Entregue por | Status |
 |---|---|---|---|---|

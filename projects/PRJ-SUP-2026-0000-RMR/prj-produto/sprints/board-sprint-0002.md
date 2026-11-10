@@ -1,6 +1,6 @@
 # 🗂️ Board — Sprint 2 (Onda 1-Must · 0001–0004) · 02/11 – 13/11/2026
 
-> **O que é:** a **camada fina** de status da Sprint 2 — 7 itens (4 user stories + 2 enablers em continuidade + 1 architectural runway). A camada grossa está no [BACKLOG-LIST](../backlog/BACKLOG-LIST.md); as regras do fluxo, em [sprints/README §Board da sprint](README.md#board-da-sprint).
+> **O que é:** a **camada fina** de status da Sprint 2 — 7 itens (4 user stories + 2 enablers em continuidade + 1 architectural runway). A camada grossa está no [BACKLOG-LIST](../../../../docs/produto/backlog/BACKLOG-LIST.md); as regras do fluxo, em [sprints/README §Board da sprint](README.md#board-da-sprint).
 > **Planejamento (02/11):** corte validado ([PENDENCY-0032](../../pendencias.md) ✅) — stories 0001–0004 (14 SP) + conclusão de ENABLER-0006 (04/11) e ENABLER-0010 (05/11), herdados da Sprint 1. **Donos das stories propostos** conforme [equipe §3.1](../../equipe.md) (Bruno Oliveira = backend · Manoel Carlos = frontend) — confirmar no planning.
 > **Legenda `Check`:** 💡 aguardando/ready · 👷 em execução · 🏁 concluído.
 
@@ -76,8 +76,8 @@
 ## Fechamento (review de 13/11)
 
 - [ ] Confirmar a posição dos 7 itens e **anexar a evidência** (PR, teste, script).
-- [ ] Mover para `Concluído` só com **DoD do card + smoke test**; refletir na camada grossa ([BACKLOG-LIST](../backlog/BACKLOG-LIST.md)) para `✅ Entregue`.
+- [ ] Mover para `Concluído` só com **DoD do card + smoke test**; refletir na camada grossa ([BACKLOG-LIST](../../../../docs/produto/backlog/BACKLOG-LIST.md)) para `✅ Entregue`.
 - [ ] Registrar **métricas**: itens concluídos / total · lead time · cycle time · throughput · WIP age · rework rate · escape rate.
 - [ ] Abrir o board da Sprint 3 (`board-sprint-0003.md`) no planning de 16/11.
 
-> 🔁 **Regra viva:** mudou a posição de um item? Atualize este board **e** a camada grossa ([BACKLOG-LIST](../backlog/BACKLOG-LIST.md)) no mesmo passo. Semana a semana: `scripts/check-pendencias.sh`.
+> 🔁 **Regra viva:** mudou a posição de um item? Atualize este board **e** a camada grossa ([BACKLOG-LIST](../../../../docs/produto/backlog/BACKLOG-LIST.md)) no mesmo passo. Semana a semana: `scripts/check-pendencias.sh`.

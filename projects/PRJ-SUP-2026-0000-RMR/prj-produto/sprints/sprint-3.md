@@ -17,4 +17,4 @@
 | [US-FEAT-0002.0001-0007](../user-stories/US-FEAT-0002.0001-0007-reciclagem.md) — Registrar a etapa de Reciclagem | 3 |
 | **Total** | **10** |
 
-> 🔁 Regra viva: mudou o corte? Atualize este stub + [escopo-onda-1.md](../escopo-onda-1.md) + [BACKLOG-LIST](../backlog/BACKLOG-LIST.md) no mesmo passo.
+> 🔁 Regra viva: mudou o corte? Atualize este stub + [escopo-onda-1.md](../escopo-onda-1.md) + [BACKLOG-LIST](../../../../docs/produto/backlog/BACKLOG-LIST.md) no mesmo passo.

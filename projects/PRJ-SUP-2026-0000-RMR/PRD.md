@@ -1,4 +1,4 @@
-#### 📝 PRD Ágil — Projeto PRJ-SUP-2026-0000-RMR (Onda 1-Must / MVP)
+# 📝 PRD Ágil — Projeto PRJ-SUP-2026-0000-RMR (Onda 1-Must / MVP)
 
 > Versão: 1.0 (Pós-Board) | Status: Em enriquecimento pelas áreas de negócio
 >
@@ -20,7 +20,7 @@
 ## 5. Estrutura de Engenharia e TI (fase de implementação)
 
 > 💡 Diretrizes de arquitetura (API-First, `tenant_id`, SSO, API REST aberta) vivem na platform-standards: [diretrizes-arquitetura](https://github.com/fbso-techservice/platform-standards/blob/main/standards/architecture/diretrizes-arquitetura.md).
-> Detalhamento técnico do produto: [docs/tecnico/arquitetura/](../../docs/tecnico/arquitetura/).
+> Detalhamento técnico do produto: [docs/tecnico/arquitetura/](../../docs/tecnico/arquitetura).
 
 ## 6. Mapa de documentos
 
@@ -31,12 +31,12 @@
 | Produto | Visão e benefícios | [docs/negocio/visao.md](../../docs/negocio/visao.md) · [beneficios](../../docs/negocio/beneficios-esperados.md) |
 | Produto | Taxonomia de entidades + regras de identificadores | [docs/negocio/taxonomia-entidades-cadastro-ativos.md](../../docs/negocio/taxonomia-entidades-cadastro-ativos.md) · [regras](../../docs/negocio/regras-formacao-identificadores.md) |
 | Produto | Domínio e inventário | [docs/tecnico/domain.md](../../docs/tecnico/domain.md) · [inventory.md](../../docs/tecnico/inventory.md) |
-| Produto | Arquitetura, C4, ADRs, integrações | [docs/tecnico/arquitetura/](../../docs/tecnico/arquitetura/) |
+| Produto | Arquitetura, C4, ADRs, integrações | [docs/tecnico/arquitetura/](../../docs/tecnico/arquitetura) |
 | Produto | Segurança | [docs/tecnico/seguranca/SECURITY.md](../../docs/tecnico/seguranca/SECURITY.md) |
 | Projeto | Demanda de origem (PEDIDO, R1–R59) | [prj-negocio/discovery/PEDIDO.md](prj-negocio/discovery/PEDIDO.md) |
 | Projeto | Requisitos de negócio (B-REQ) | [prj-negocio/requisitos/requisitos-negocio.md](prj-negocio/requisitos/requisitos-negocio.md) |
-| Projeto | Backlog, épicos, features, stories, sprints | [prj-produto/](prj-produto/) |
-| Projeto | Enablers e runways | [prj-tecnico/enablers/](prj-tecnico/enablers/) · [runways/](prj-tecnico/runways/) |
+| Projeto | Backlog, épicos, features, stories, sprints | [prj-produto/](prj-produto) |
+| Projeto | Enablers e runways | [prj-tecnico/enablers/](prj-tecnico/enablers) · [runways/](prj-tecnico/runways) |
 | Projeto | Hub de pendências | [pendencias.md](pendencias.md) |
 | Projeto | Equipe | [equipe.md](equipe.md) |
 | Processo | Padrões ágeis (INVEST, WSJF, MoSCoW, templates) | [platform-standards/standards/agile/](https://github.com/fbso-techservice/platform-standards/tree/main/standards/agile) |

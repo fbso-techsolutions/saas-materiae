@@ -5,7 +5,7 @@
 | Projeto | PRJ-SUP-2026-0000-RMR (RMR Reversa) |
 | Épico | [EPIC-0001 — Logística Reversa e Triagem](../epicos/EPIC-0001-logistica-reversa-e-triagem.md) |
 | B-REQ dona | — (nascido de **R17, R22 e R48**) |
-| Prioridade | **Onda 2-Should (MVP completo)** (fora da Onda 1-Must (MVP mínimo) — **dependência externa**) — ver [backlog](../backlog/BACKLOG-LIST.md) |
+| Prioridade | **Onda 2-Should (MVP completo)** (fora da Onda 1-Must (MVP mínimo) — **dependência externa**) — ver [backlog](../../../../docs/produto/backlog/BACKLOG-LIST.md) |
 | Requisitos (PEDIDO) | R17 (validar o identificador — NDS/IMEI no pedido — consultando o cadastro mestre), R22 (validar na base do cadastro mestre na triagem), R48 (devolutiva: retornos do campo, sucateados, expedidos) — [PEDIDO](../../prj-negocio/discovery/PEDIDO.md) |
 | Depende de | **API REST genérica do cadastro mestre corporativo** (fase 2 — [diretrizes de arquitetura](https://github.com/fbso-techservice/platform-standards/blob/main/standards/architecture/diretrizes-arquitetura.md): API-First, aberta a **qualquer** sistema de ativos — SAP/TOTVS/Senior/Sankhya ou interno) |
 | Integra com | **FEATURE-0001.0001** (recebimento — validação) · **FEATURE-0002.0001** (sucata/expedição — devolutiva) |

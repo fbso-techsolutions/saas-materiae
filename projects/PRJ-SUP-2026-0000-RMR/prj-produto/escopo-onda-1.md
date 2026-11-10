@@ -1,6 +1,6 @@
 # 🎯 Escopo da Onda 1-Must (MVP mínimo) — fatia vertical
 
-> **O que é:** a definição do **Onda 1-Must (MVP mínimo)** — a menor fatia que fecha o ciclo do item ponta a ponta. Decisão de origem: **D-04** ([DECISOES-BACKLOG](backlog/DECISOES-BACKLOG.md)). Itens executáveis: [BACKLOG-LIST](backlog/BACKLOG-LIST.md) (lista única). Critérios de priorização: [backlog/README](backlog/README.md).
+> **O que é:** a definição do **Onda 1-Must (MVP mínimo)** — a menor fatia que fecha o ciclo do item ponta a ponta. Decisão de origem: **D-04** ([DECISOES-BACKLOG](backlog/DECISOES-BACKLOG.md)). Itens executáveis: [BACKLOG-LIST](../../../docs/produto/backlog/BACKLOG-LIST.md) (lista única). Critérios de priorização: [backlog/README](backlog/README.md).
 > **Status:** ✅ Escopo confirmado (2026-10-16) · ✅ fatiamento S2–S5 **validado (2026-10-30)** ([PENDENCY-0032](../pendencias.md)).
 
 ## Objetivo
@@ -13,7 +13,7 @@
 |---|---|---|
 | [FEATURE-0001.0001](features/FEATURE-0001.0001-recebimento-ativos.md) · [FEATURE-0002.0001](features/FEATURE-0002.0001-painel-kanban-workflow.md) · [FEATURE-0002.0005](features/FEATURE-0002.0005-expedicao.md) · [FEATURE-0005.0005](features/FEATURE-0005.0005-travas-lgpd-compliance.md) (mínimo: registro do certificado) · 1 modelo de material serializado · decisão de rota **humana** (sem motor) | FEATURE-0001.0002 · FEATURE-0001.0003 · FEATURE-0001.0004 · FEATURE-0001.0005 · FEATURE-0002.0002 · FEATURE-0002.0003 · FEATURE-0002.0004 · FEATURE-0003.0001 · FEATURE-0004.0001 · FEATURE-0005.0001 · FEATURE-0005.0002 · FEATURE-0005.0003 · FEATURE-0005.0006 | FEATURE-0004.0002 · FEATURE-0004.0003 · FEATURE-0005.0004 |
 
-Base do fatiamento: [BRAINSTORM §4.3, §15.5 e §16](discovery/BRAINSTORM.md) — "Onda 1-Must (MVP mínimo): triagem→…→expedição com 1 modelo; Onda 2-Should (MVP completo): todas as variações, dashboards e integrações". As features fora da Onda 1-Must (MVP mínimo) estão no [pipeline do backlog](backlog/BACKLOG-LIST.md#pipeline-de-features-sem-stories).
+Base do fatiamento: [BRAINSTORM §4.3, §15.5 e §16](discovery/BRAINSTORM.md) — "Onda 1-Must (MVP mínimo): triagem→…→expedição com 1 modelo; Onda 2-Should (MVP completo): todas as variações, dashboards e integrações". As features fora da Onda 1-Must (MVP mínimo) estão no [pipeline do backlog](../../../docs/produto/backlog/BACKLOG-LIST.md#pipeline-de-features-sem-stories).
 
 ## Critério de pronto da Onda 1-Must (MVP mínimo)
 
@@ -42,6 +42,6 @@ Capacidade declarada: **14 SP por sprint** ([equipe §3.2](../equipe.md)). 45 SP
 | **S4** | 30/11 | 0008 · 0009 · 0010 · 0011 | 14 |
 | **S5** | 14/12 | 0012 · 0013 | 7 |
 
-Cada story e sua sprint estão na coluna `Entregue por` do [BACKLOG-LIST](backlog/BACKLOG-LIST.md); a cadeia `Depende de` segue o fluxo do processo.
+Cada story e sua sprint estão na coluna `Entregue por` do [BACKLOG-LIST](../../../docs/produto/backlog/BACKLOG-LIST.md); a cadeia `Depende de` segue o fluxo do processo.
 
 > ✅ **Validado (2026-10-30)** — PO/PM + Tech lead ([PENDENCY-0032](../pendencias.md)). Ajustes de ordem e de capacidade podem mudar as datas sem alterar o escopo da Onda 1-Must (MVP mínimo).

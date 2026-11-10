@@ -20,4 +20,4 @@
 
 **Conclusões vindas da Sprint 1:** [ENABLER-0006](../../prj-tecnico/enablers/ENABLER-0006-workflow-tabela-configuracao.md) (04/11) · [ENABLER-0010](../../prj-tecnico/enablers/ENABLER-0010-dados-iniciais-homologacao.md) (05/11).
 
-> 🔁 Regra viva: mudou o corte? Atualize este stub + [escopo-onda-1.md](../escopo-onda-1.md) + [BACKLOG-LIST](../backlog/BACKLOG-LIST.md) no mesmo passo.
+> 🔁 Regra viva: mudou o corte? Atualize este stub + [escopo-onda-1.md](../escopo-onda-1.md) + [BACKLOG-LIST](../../../../docs/produto/backlog/BACKLOG-LIST.md) no mesmo passo.

@@ -7,8 +7,8 @@
 | **B-REQs atendidas** | [B-REQ-06 — Abertura de Triagem via Chamado de Troca](../../prj-negocio/requisitos/requisitos-negocio.md) · [B-REQ-07 — Consulta de Ativos Disponíveis para Swap (Troca)](../../prj-negocio/requisitos/requisitos-negocio.md) · [B-REQ-08 — Fluxo de Recebimento e Posse do Ativo Recuperado](../../prj-negocio/requisitos/requisitos-negocio.md) |
 | **Features** | 3 (`FEATURE-0004.0001` … `FEATURE-0004.0003`) |
 | **Origem** | [Requisitos de Negócio](../../prj-negocio/requisitos/requisitos-negocio.md) · [PEDIDO](../../prj-negocio/discovery/PEDIDO.md) · [BRAINSTORM](../discovery/BRAINSTORM.md) · [mapeamento](../rastreabilidade.md) |
-| **Priorização** | [backlog](../backlog/BACKLOG-LIST.md) |
-| **Prioridade** | **Onda 2-Should (MVP completo) + Onda 3-Could (Integração & Valor)** — derivada das features (1 × Onda 2-Should (MVP completo) · 2 × Onda 3-Could (Integração & Valor)) · ver [backlog](../backlog/BACKLOG-LIST.md) |
+| **Priorização** | [backlog](../../../../docs/produto/backlog/BACKLOG-LIST.md) |
+| **Prioridade** | **Onda 2-Should (MVP completo) + Onda 3-Could (Integração & Valor)** — derivada das features (1 × Onda 2-Should (MVP completo) · 2 × Onda 3-Could (Integração & Valor)) · ver [backlog](../../../../docs/produto/backlog/BACKLOG-LIST.md) |
 | **Status** | 📝 Rascunho (2026-10-20) |
 
 ---
@@ -21,7 +21,7 @@
 
 ## 2. Fora do escopo deste épico
 
-- **Quando:** fora da Onda 1-Must (MVP mínimo) — **FEATURE-0004.0001 na Onda 2-Should (MVP completo)**; FEATURE-0004.0002/0004.0003 em **Onda 3-Could (Integração & Valor)/roadmap** ([backlog](../backlog/BACKLOG-LIST.md)).
+- **Quando:** fora da Onda 1-Must (MVP mínimo) — **FEATURE-0004.0001 na Onda 2-Should (MVP completo)**; FEATURE-0004.0002/0004.0003 em **Onda 3-Could (Integração & Valor)/roadmap** ([backlog](../../../../docs/produto/backlog/BACKLOG-LIST.md)).
 - O sistema de chamados do Service Desk não pertence ao épico — aqui só a jornada do ativo (envio, localização e custódia).
 
 ## 3. Features e stories derivadas
@@ -34,4 +34,4 @@
 
 ---
 
-> 💡 **Rastreabilidade:** priorização e detalhamento: [backlog](../backlog/BACKLOG-LIST.md) · pendências: [hub](../../pendencias.md). **Objetivo e fora do escopo acima são síntese** das B-REQ/PEDIDO/BRAINSTORM — 📝 revisar com as áreas. Este documento **aponta, não copia** — o detalhe mora no card da feature (quando criado).
+> 💡 **Rastreabilidade:** priorização e detalhamento: [backlog](../../../../docs/produto/backlog/BACKLOG-LIST.md) · pendências: [hub](../../pendencias.md). **Objetivo e fora do escopo acima são síntese** das B-REQ/PEDIDO/BRAINSTORM — 📝 revisar com as áreas. Este documento **aponta, não copia** — o detalhe mora no card da feature (quando criado).

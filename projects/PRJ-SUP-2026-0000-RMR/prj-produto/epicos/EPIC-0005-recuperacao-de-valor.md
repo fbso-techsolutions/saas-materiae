@@ -7,8 +7,8 @@
 | **B-REQs atendidas** | [B-REQ-04 — Rastreabilidade de Baixa Patrimonial Contábil](../../prj-negocio/requisitos/requisitos-negocio.md) · [B-REQ-05 — Termo de Destruição Segura de Dados (LGPD)](../../prj-negocio/requisitos/requisitos-negocio.md) · [B-REQ-09 — Venda de Peças e Sucata (Recuperação de Valor)](../../prj-negocio/requisitos/requisitos-negocio.md) · [B-REQ-10 — Motor de Recuperação de Valor](../../prj-negocio/requisitos/requisitos-negocio.md) |
 | **Features** | 6 (`FEATURE-0005.0001` … `FEATURE-0005.0006`) |
 | **Origem** | [Requisitos de Negócio](../../prj-negocio/requisitos/requisitos-negocio.md) · [PEDIDO](../../prj-negocio/discovery/PEDIDO.md) · [BRAINSTORM](../discovery/BRAINSTORM.md) · [mapeamento](../rastreabilidade.md) |
-| **Priorização** | [backlog](../backlog/BACKLOG-LIST.md) |
-| **Prioridade** | **Onda 1-Must (MVP mínimo) + Onda 2-Should (MVP completo) + Onda 3-Could (Integração & Valor)** — derivada das features (1 × Onda 1-Must (MVP mínimo) · 4 × Onda 2-Should (MVP completo) · 1 × Onda 3-Could (Integração & Valor)) · ver [backlog](../backlog/BACKLOG-LIST.md) |
+| **Priorização** | [backlog](../../../../docs/produto/backlog/BACKLOG-LIST.md) |
+| **Prioridade** | **Onda 1-Must (MVP mínimo) + Onda 2-Should (MVP completo) + Onda 3-Could (Integração & Valor)** — derivada das features (1 × Onda 1-Must (MVP mínimo) · 4 × Onda 2-Should (MVP completo) · 1 × Onda 3-Could (Integração & Valor)) · ver [backlog](../../../../docs/produto/backlog/BACKLOG-LIST.md) |
 | **Status** | 📝 Rascunho (2026-10-20) |
 
 ---
@@ -21,7 +21,7 @@
 
 ## 2. Fora do escopo deste épico
 
-- No Onda 1-Must (MVP mínimo) entra só a `FEATURE-0005.0005` (travas LGPD/compliance) — desmanche, estoques, motor, venda e baixa são Onda 2-Should (MVP completo)/Onda 3-Could (Integração & Valor) ([backlog](../backlog/BACKLOG-LIST.md)).
+- No Onda 1-Must (MVP mínimo) entra só a `FEATURE-0005.0005` (travas LGPD/compliance) — desmanche, estoques, motor, venda e baixa são Onda 2-Should (MVP completo)/Onda 3-Could (Integração & Valor) ([backlog](../../../../docs/produto/backlog/BACKLOG-LIST.md)).
 - A logística reversa de entrada (recebimento e triagem) pertence ao EPIC-0001 — este épico começa no desmanche.
 
 ## 3. Features e stories derivadas

@@ -1,10 +1,10 @@
 # 📚 Backlog
 
-> A **lista única** do trabalho executável ([BACKLOG-LIST](BACKLOG-LIST.md)), as **regras** que a mantêm, as **decisões** e o **escopo da Onda 1-Must (MVP mínimo)**.
+> A **lista única** do trabalho executável ([BACKLOG-LIST](../../../../docs/produto/backlog/BACKLOG-LIST.md)), as **regras** que a mantêm, as **decisões** e o **escopo da Onda 1-Must (MVP mínimo)**.
 
 | Documento | Conteúdo | Status |
 |---|---|---|
-| [BACKLOG-LIST.md](BACKLOG-LIST.md) | **Lista única** — 35 itens executáveis (21 user stories · 10 enablers · 4 architectural runways) + **pipeline** das 13 features ainda sem stories. Um item por linha, só com o essencial e o link do documento do item. | ✅ 2026-10-29 |
+| [BACKLOG-LIST.md](../../../../docs/produto/backlog/BACKLOG-LIST.md) | **Lista única** — 35 itens executáveis (21 user stories · 10 enablers · 4 architectural runways) + **pipeline** das 13 features ainda sem stories. Um item por linha, só com o essencial e o link do documento do item. | ✅ 2026-10-29 |
 | [DECISOES-BACKLOG.md](DECISOES-BACKLOG.md) | **D-01 … D-14** — decisões de escopo, priorização e fluxo (2026-10-16/11-03), uma linha cada, com link ao detalhe | ✅ Registrado |
 | [checklist-operacao-po-onda-1.md](checklist-operacao-po-onda-1.md) | **Checklist de reunião** com Operação/PO — 5 itens (PENDENCY-0004/PENDENCY-0005/PENDENCY-0006/PENDENCY-0009) com espaço para resposta/status/dono; fechar **antes da Sprint 2 (Onda 1-Must (MVP mínimo))** | ✅ Revisado — 5/5 decididas em 2026-10-16 |
 | [wsjf-features-pipeline.md](../features/wsjf-features-pipeline.md) | **WSJF das 13 features do pipeline** (nível Programa) · tabela comparativa CoD ÷ Job Size para ordenar o detalhamento (rolling wave) na reunião de priorização | 📝 Proposta (2026-11-03) |
@@ -129,11 +129,11 @@ O antigo `BACKLOG-LIST` (140 linhas, 6 seções) foi separado em 2026-10-29 para
 | Conteúdo antigo | Onde vive agora |
 |---|---|
 | §1 Critérios de priorização | este README (§8) |
-| §2 Tabela priorizada de features | tabela de itens + pipeline do [BACKLOG-LIST](BACKLOG-LIST.md) |
+| §2 Tabela priorizada de features | tabela de itens + pipeline do [BACKLOG-LIST](../../../../docs/produto/backlog/BACKLOG-LIST.md) |
 | §3 Definição da fatia Onda 1-Must (MVP mínimo) | [escopo-onda-1](../escopo-onda-1.md) |
 | §4 Decisões registradas | [DECISOES-BACKLOG](DECISOES-BACKLOG.md) (D-01…D-14) |
 | §5 Próximo passo | [sprints/README](../sprints/README.md) |
 | §6.1 Tipos e IDs | [padrão de identificação](https://github.com/fbso-techservice/platform-standards/blob/main/standards/agile/padrao-identificacao-entidades.md) |
 | §6.2 Enablers | [sprint-1-fundacao](../sprints/sprint-1-fundacao.md) |
 | §6.3 Architectural Runways | [arquitetura/runways](../../prj-tecnico/runways/README.md) |
-| §6.4 Quadros de débito/bug/incidente | tabela de itens do [BACKLOG-LIST](BACKLOG-LIST.md) |
+| §6.4 Quadros de débito/bug/incidente | tabela de itens do [BACKLOG-LIST](../../../../docs/produto/backlog/BACKLOG-LIST.md) |

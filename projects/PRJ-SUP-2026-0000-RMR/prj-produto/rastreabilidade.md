@@ -164,11 +164,11 @@
 |---|---|
 | Convenção de ID | Épico `EPIC-{NNNN}` · Feature `FEATURE-{épico}.{NNNN}` · Story `US-FEAT-{feature}-{SSSS}` — [padrão de identificação](https://github.com/fbso-techservice/platform-standards/blob/main/standards/agile/padrao-identificacao-entidades.md) |
 | Totais | **10 B-REQs · 59 requisitos (R) · 5 épicos · 20 features · 21 stories** + 10 enablers + 4 runways |
-| Fontes | [requisitos-negocio](../prj-negocio/requisitos/requisitos-negocio.md) (B-REQ) · [PEDIDO](../prj-negocio/discovery/PEDIDO.md) (R1–R59) · [BACKLOG-LIST](backlog/BACKLOG-LIST.md) (sprint/status) · [decisões](backlog/DECISOES-BACKLOG.md) |
+| Fontes | [requisitos-negocio](../prj-negocio/requisitos/requisitos-negocio.md) (B-REQ) · [PEDIDO](../prj-negocio/discovery/PEDIDO.md) (R1–R59) · [BACKLOG-LIST](../../../docs/produto/backlog/BACKLOG-LIST.md) (sprint/status) · [decisões](backlog/DECISOES-BACKLOG.md) |
 | Validação | `scripts/check-rastreabilidade.sh` (exit limpo) |
 
 ---
 
-> 🔁 **Regra viva:** criou/moveu item, feature, épico, sprint ou release? Atualize esta matriz **e** o [BACKLOG-LIST](backlog/BACKLOG-LIST.md) **e** o índice da pasta no mesmo passo.
+> 🔁 **Regra viva:** criou/moveu item, feature, épico, sprint ou release? Atualize esta matriz **e** o [BACKLOG-LIST](../../../docs/produto/backlog/BACKLOG-LIST.md) **e** o índice da pasta no mesmo passo.
 
 **Fim do documento.**

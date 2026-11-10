@@ -7,8 +7,8 @@
 | **B-REQs atendidas** | — *(nenhuma direta; cobertura via R do [PEDIDO](../../prj-negocio/discovery/PEDIDO.md): R24 · R34 · R36/R37 · R49–R59 — ver [mapeamento](../rastreabilidade.md))* |
 | **Features** | 5 (`FEATURE-0002.0001` … `FEATURE-0002.0005`) |
 | **Origem** | [Requisitos de Negócio](../../prj-negocio/requisitos/requisitos-negocio.md) · [PEDIDO](../../prj-negocio/discovery/PEDIDO.md) · [BRAINSTORM](../discovery/BRAINSTORM.md) · [mapeamento](../rastreabilidade.md) |
-| **Priorização** | [backlog](../backlog/BACKLOG-LIST.md) |
-| **Prioridade** | **Onda 1-Must (MVP mínimo) + Onda 2-Should (MVP completo)** — derivada das features (2 × Onda 1-Must (MVP mínimo) · 3 × Onda 2-Should (MVP completo)) · ver [backlog](../backlog/BACKLOG-LIST.md) |
+| **Priorização** | [backlog](../../../../docs/produto/backlog/BACKLOG-LIST.md) |
+| **Prioridade** | **Onda 1-Must (MVP mínimo) + Onda 2-Should (MVP completo)** — derivada das features (2 × Onda 1-Must (MVP mínimo) · 3 × Onda 2-Should (MVP completo)) · ver [backlog](../../../../docs/produto/backlog/BACKLOG-LIST.md) |
 | **Status** | 📝 Rascunho (2026-10-20) |
 
 ---
@@ -21,7 +21,7 @@
 
 ## 2. Fora do escopo deste épico
 
-- No Onda 1-Must (MVP mínimo) entram só `FEATURE-0002.0001` (Kanban) e `FEATURE-0002.0005` (expedição — desmembrada por [PENDENCY-0004](../../pendencias.md)); etiquetas, busca e dashboards são Onda 2-Should (MVP completo) ([backlog](../backlog/BACKLOG-LIST.md)).
+- No Onda 1-Must (MVP mínimo) entram só `FEATURE-0002.0001` (Kanban) e `FEATURE-0002.0005` (expedição — desmembrada por [PENDENCY-0004](../../pendencias.md)); etiquetas, busca e dashboards são Onda 2-Should (MVP completo) ([backlog](../../../../docs/produto/backlog/BACKLOG-LIST.md)).
 - Venda, precificação e baixa patrimonial pertencem ao EPIC-0005 — não a este épico.
 
 ## 3. Features e stories derivadas

@@ -18,4 +18,4 @@
 | [US-FEAT-0005.0005-0011](../user-stories/US-FEAT-0005.0005-0011-destruicao-dados-midia.md) — Certificar a sanitização segura de dados da mídia (LGPD) | 4 |
 | **Total** | **14** |
 
-> 🔁 Regra viva: mudou o corte? Atualize este stub + [escopo-onda-1.md](../escopo-onda-1.md) + [BACKLOG-LIST](../backlog/BACKLOG-LIST.md) no mesmo passo.
+> 🔁 Regra viva: mudou o corte? Atualize este stub + [escopo-onda-1.md](../escopo-onda-1.md) + [BACKLOG-LIST](../../../../docs/produto/backlog/BACKLOG-LIST.md) no mesmo passo.

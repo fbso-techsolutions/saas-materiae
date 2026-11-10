@@ -55,7 +55,7 @@
 
 ## 3. Time técnico necessário — gate ② de capacidade
 
-> O que o **Onda 1-Must (MVP mínimo)** precisa de time para executar as **13 stories (IDs 0001–0013, convenção `US-FEAT-{feature}-{SSSS}`)** + 4 Architectural Runways (Keycloak, policies RLS, config de workflow, auditoria — ver [backlog](prj-produto/backlog/BACKLOG-LIST.md)) e, em seguida, o rolling wave da Onda 2-Should (MVP completo) (a partir de 0022).
+> O que o **Onda 1-Must (MVP mínimo)** precisa de time para executar as **13 stories (IDs 0001–0013, convenção `US-FEAT-{feature}-{SSSS}`)** + 4 Architectural Runways (Keycloak, policies RLS, config de workflow, auditoria — ver [backlog](../../docs/produto/backlog/BACKLOG-LIST.md)) e, em seguida, o rolling wave da Onda 2-Should (MVP completo) (a partir de 0022).
 
 ### 3.1 Papéis e quantidades
 

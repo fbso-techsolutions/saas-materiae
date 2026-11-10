@@ -29,7 +29,7 @@
 | FEATURE-0004.0002 | Busca de ativos para swap | 5 | 2 | 2 | 9 | 5 | **1.80** | 12º |
 | FEATURE-0004.0003 | Workflow de transferência de custódia | 5 | 2 | 2 | 9 | 5 | **1.80** | 13º |
 
-*Features do pipeline (sem card próprio) · fonte: [mapeamento de épicos](../rastreabilidade.md) e [BACKLOG-LIST §Pipeline](../backlog/BACKLOG-LIST.md#pipeline-de-features-sem-stories). As features já em sprint (FEATURE-0001.0001 · 0002.0001 · 0002.0005 · 0005.0005) e as que já têm stories (0001.0003 · 0001.0004 · 0001.0005) não entram aqui: são nível Time ou já comprometidas.*
+*Features do pipeline (sem card próprio) · fonte: [mapeamento de épicos](../rastreabilidade.md) e [BACKLOG-LIST §Pipeline](../../../../docs/produto/backlog/BACKLOG-LIST.md#pipeline-de-features-sem-stories). As features já em sprint (FEATURE-0001.0001 · 0002.0001 · 0002.0005 · 0005.0005) e as que já têm stories (0001.0003 · 0001.0004 · 0001.0005) não entram aqui: são nível Time ou já comprometidas.*
 
 ---
 

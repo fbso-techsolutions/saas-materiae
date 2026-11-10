@@ -1,6 +1,6 @@
 # 🗂️ Board — Sprint 1 (Fundação) · 19/10 – 30/10/2026
 
-> **O que é:** a **camada fina** de status da Sprint 1 — 14 itens (10 enablers + 4 architectural runways). A camada grossa está no [BACKLOG-LIST](../backlog/BACKLOG-LIST.md); as regras do fluxo, em [sprints/README §Board da sprint](README.md#board-da-sprint).
+> **O que é:** a **camada fina** de status da Sprint 1 — 14 itens (10 enablers + 4 architectural runways). A camada grossa está no [BACKLOG-LIST](../../../../docs/produto/backlog/BACKLOG-LIST.md); as regras do fluxo, em [sprints/README §Board da sprint](README.md#board-da-sprint).
 > **Fechamento (2026-10-30):** posição confirmada na review de encerramento — 8 enablers comprometidos 🔵 + 3 runways `Concluído`; ENABLER-0006/ENABLER-0010 (🟡) e a runway de workflow continuam na Sprint 2 ([PENDENCY-0033](../../pendencias.md) ✅).
 
 | Campo | Valor |
@@ -35,6 +35,6 @@
 ## Fechamento (review de 30/10)
 
 - [x] Confirmar a posição dos 14 itens e **anexar a evidência** (link do PR, teste, script do zero) — [PENDENCY-0033](../../pendencias.md) ✅.
-- [x] Mover para `Concluído` só com **DoD do card + smoke test**; atualizar a camada grossa no [BACKLOG-LIST](../backlog/BACKLOG-LIST.md) para `✅ Entregue`.
+- [x] Mover para `Concluído` só com **DoD do card + smoke test**; atualizar a camada grossa no [BACKLOG-LIST](../../../../docs/produto/backlog/BACKLOG-LIST.md) para `✅ Entregue`.
 - [x] Registrar a **baseline de fluxo** da S1: itens concluídos / 14 = **11/14** · lead time médio · rework · WIP máximo.
 - [ ] Abrir o board da Sprint 2 (`board-sprint-0002.md`) no planning de 02/11, já com WIP e fluxo por tipo.

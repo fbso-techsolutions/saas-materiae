@@ -7,8 +7,8 @@
 | **B-REQs atendidas** | [B-REQ-03 — Estoque Virtual de Reuso](../../prj-negocio/requisitos/requisitos-negocio.md) |
 | **Features** | 1 (`FEATURE-0003.0001`) |
 | **Origem** | [Requisitos de Negócio](../../prj-negocio/requisitos/requisitos-negocio.md) · [PEDIDO](../../prj-negocio/discovery/PEDIDO.md) · [BRAINSTORM](../discovery/BRAINSTORM.md) · [mapeamento](../rastreabilidade.md) |
-| **Priorização** | [backlog](../backlog/BACKLOG-LIST.md) |
-| **Prioridade** | **Onda 2-Should (MVP completo)** — derivada da feature (1 × Onda 2-Should (MVP completo)) · ver [backlog](../backlog/BACKLOG-LIST.md) |
+| **Priorização** | [backlog](../../../../docs/produto/backlog/BACKLOG-LIST.md) |
+| **Prioridade** | **Onda 2-Should (MVP completo)** — derivada da feature (1 × Onda 2-Should (MVP completo)) · ver [backlog](../../../../docs/produto/backlog/BACKLOG-LIST.md) |
 | **Status** | 📝 Rascunho (2026-10-20) |
 
 ---
@@ -21,7 +21,7 @@
 
 ## 2. Fora do escopo deste épico
 
-- **Quando:** fora da Onda 1-Must (MVP mínimo) — **FEATURE-0003.0001 entra na Onda 2-Should (MVP completo)** ([backlog](../backlog/BACKLOG-LIST.md)).
+- **Quando:** fora da Onda 1-Must (MVP mínimo) — **FEATURE-0003.0001 entra na Onda 2-Should (MVP completo)** ([backlog](../../../../docs/produto/backlog/BACKLOG-LIST.md)).
 - Precificação, venda e baixa patrimonial pertencem ao EPIC-0005 — aqui só busca e reserva.
 
 ## 3. Features e stories derivadas
@@ -32,4 +32,4 @@
 
 ---
 
-> 💡 **Rastreabilidade:** priorização e expansão do catálogo: [backlog](../backlog/BACKLOG-LIST.md) · pendências: [hub](../../pendencias.md). **Objetivo e fora do escopo acima são síntese** das B-REQ/PEDIDO/BRAINSTORM — 📝 revisar com as áreas. Este documento **aponta, não copia** — o detalhe mora no card da feature (quando criado).
+> 💡 **Rastreabilidade:** priorização e expansão do catálogo: [backlog](../../../../docs/produto/backlog/BACKLOG-LIST.md) · pendências: [hub](../../pendencias.md). **Objetivo e fora do escopo acima são síntese** das B-REQ/PEDIDO/BRAINSTORM — 📝 revisar com as áreas. Este documento **aponta, não copia** — o detalhe mora no card da feature (quando criado).

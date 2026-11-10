@@ -1,6 +1,6 @@
 # 🗂️ Decisões do Backlog
 
-> Registro histórico das decisões de escopo, priorização e fluxo (antes na §4 do antigo BACKLOG-LIST). A **lista operacional** vive em [BACKLOG-LIST.md](BACKLOG-LIST.md); a **definição da Onda 1-Must (MVP mínimo)** em [escopo-onda-1](../escopo-onda-1.md); os **critérios** no [README da pasta](README.md). Cada decisão aponta para onde o detalhe mora.
+> Registro histórico das decisões de escopo, priorização e fluxo (antes na §4 do antigo BACKLOG-LIST). A **lista operacional** vive em [BACKLOG-LIST.md](../../../../docs/produto/backlog/BACKLOG-LIST.md); a **definição da Onda 1-Must (MVP mínimo)** em [escopo-onda-1](../escopo-onda-1.md); os **critérios** no [README da pasta](README.md). Cada decisão aponta para onde o detalhe mora.
 
 | ID | Data | Decisão | Detalhe |
 |---|---|---|---|

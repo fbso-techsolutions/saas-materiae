@@ -5,7 +5,7 @@
 | Projeto | PRJ-SUP-2026-0000-RMR (RMR Reversa) |
 | Épico | [EPIC-0001 — Logística Reversa e Triagem](../epicos/EPIC-0001-logistica-reversa-e-triagem.md) |
 | B-REQ dona | **B-REQ-01** (apoio ao cadastro de ativos) |
-| Prioridade | **Onda 2-Should (MVP completo)** (fora da Onda 1-Must (MVP mínimo) — rolling wave) — ver [backlog](../backlog/BACKLOG-LIST.md) |
+| Prioridade | **Onda 2-Should (MVP completo)** (fora da Onda 1-Must (MVP mínimo) — rolling wave) — ver [backlog](../../../../docs/produto/backlog/BACKLOG-LIST.md) |
 | Requisitos (PEDIDO) | R6–R16 (+ R18 pendente) — [PEDIDO](../../prj-negocio/discovery/PEDIDO.md) |
 | Depende de | [taxonomia-entidades-cadastro-ativos](../../../../docs/negocio/taxonomia-entidades-cadastro-ativos.md) (estrutura de categorias/modelos — **PENDENCY-0002**) |
 | Alimenta | **FEATURE-0001.0001** (defeito reclamado) · **FEATURE-0002.0001** (teste/OS/reciclagem) · **FEATURE-0005.0005** (flag de mídia por modelo — BR-5.5.3) |

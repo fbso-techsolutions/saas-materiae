@@ -16,4 +16,4 @@
 | [US-FEAT-0005.0005-0013](../user-stories/US-FEAT-0005.0005-0013-evidencias-compliance-auditoria.md) — Consultar as evidências de compliance do item (auditoria) | 3 |
 | **Total** | **7** |
 
-> 🔁 Regra viva: mudou o corte? Atualize este stub + [escopo-onda-1.md](../escopo-onda-1.md) + [BACKLOG-LIST](../backlog/BACKLOG-LIST.md) no mesmo passo.
+> 🔁 Regra viva: mudou o corte? Atualize este stub + [escopo-onda-1.md](../escopo-onda-1.md) + [BACKLOG-LIST](../../../../docs/produto/backlog/BACKLOG-LIST.md) no mesmo passo.

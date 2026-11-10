@@ -16,7 +16,7 @@
 
 ## Board da sprint
 
-> A **camada fina** do status. O [BACKLOG-LIST](../backlog/BACKLOG-LIST.md) mostra **5 estados de gestão**; o board mostra as **etapas de execução** de uma sprint, com dono, próxima ação e evidência. **Um documento por sprint:** `board-sprint-{NNNN}.md`.
+> A **camada fina** do status. O [BACKLOG-LIST](../../../../docs/produto/backlog/BACKLOG-LIST.md) mostra **5 estados de gestão**; o board mostra as **etapas de execução** de uma sprint, com dono, próxima ação e evidência. **Um documento por sprint:** `board-sprint-{NNNN}.md`.
 > **Regra:** o board **não copia** a especificação — registra posição, dono, próxima ação e o link da evidência. Mudou a posição? Atualize o board **e** a camada grossa na lista, no mesmo passo ([mapping](../backlog/README.md#3-status-em-duas-camadas)).
 
 ### Etapas e critérios de saída
@@ -93,6 +93,6 @@ No topo: período, escopo, WIP e a nota de migração. No fim: fechamento da spr
 
 - **Sprint 1 (19–30/10)** — fundação: 4 Architectural Runways + 10 Enablers, zero features e zero stories. Gates ① (stack, 9/9) e ② (capacidade) fechados em 2026-10-19. **Concluída na review de 30/10:** 8 enablers 🔵 + 3 runways `✅ Entregue` ([board](board-sprint-0001.md) · [PENDENCY-0033](../../pendencias.md) ✅).
 - **Sprint 2 (02–13/11)** — em andamento: 4 stories (0001–0004 · 14 SP) + conclusão de ENABLER-0006/0010 ([board](board-sprint-0002.md)).
-- **Rolling wave:** Onda 1-Must (MVP mínimo) detalhado em stories (0001–0013) · Onda 2-Should (MVP completo) iniciado (FEATURE-0001.0003/0004/0005 → 0014–0021) · próximas Onda 2-Should (MVP completo) detalham na véspera da sprint (a partir de **0022**). Itens e pipeline: [BACKLOG-LIST](../backlog/BACKLOG-LIST.md).
+- **Rolling wave:** Onda 1-Must (MVP mínimo) detalhado em stories (0001–0013) · Onda 2-Should (MVP completo) iniciado (FEATURE-0001.0003/0004/0005 → 0014–0021) · próximas Onda 2-Should (MVP completo) detalham na véspera da sprint (a partir de **0022**). Itens e pipeline: [BACKLOG-LIST](../../../../docs/produto/backlog/BACKLOG-LIST.md).
 - ✅ **Validado (2026-10-30):** fatiamento da Onda 1-Must (MVP mínimo) em S2–S5 (45 SP ÷ 14 SP/sprint) — [escopo da Onda 1-Must (MVP mínimo)](../escopo-onda-1.md), [PENDENCY-0032](../../pendencias.md).
 - ✅ Verificação do servidor executada (risco 5 da [Sprint 1 §4](sprint-1-fundacao.md) — PENDENCY-0021).

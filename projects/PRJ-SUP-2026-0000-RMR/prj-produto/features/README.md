@@ -27,7 +27,7 @@
 | **Regra do 1 salto** | o card cita **1×** o travador; a cadeia (ex.: pendência que trava um enabler) vive no doc do ID. Pendência aberta que **não trava** o trabalho atual fica só no §6 |
 | **Escopo** | conta enabler que destrava o **desenvolvimento** das stories; `ENABLER-0002` (cadência) e `ENABLER-0010` (dados de demo) **não** contam. Travas mapeadas só para a Onda 1-Must (MVP mínimo): features Onda 2-Should (MVP completo) citam apenas pendências abertas — **não inferir** enabler |
 | **Fluxo (§4)** | callout `> 🟥` **no topo da seção**, só quando pendência/ocorrência **altera um passo** do fluxo — estado de entrega (enabler) não entra no fluxo |
-| **Espelho** | [backlog](../backlog/BACKLOG-LIST.md) coluna `Travada por` = mesmos IDs (🔒 aberto · ✅ resolvido) — quem tem visão de backlog lê lá |
+| **Espelho** | [backlog](../../../../docs/produto/backlog/BACKLOG-LIST.md) coluna `Travada por` = mesmos IDs (🔒 aberto · ✅ resolvido) — quem tem visão de backlog lê lá |
 | **Atualização** | planning/refinement (D1) · ritual semanal do `scripts/check-pendencias.sh` · mudança de corte de enabler |
 
 **Quem preenche:** PM/PO no refinement do card · espelho na §2 do backlog no mesmo passo.

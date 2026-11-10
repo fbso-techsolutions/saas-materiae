@@ -7,8 +7,8 @@
 | **B-REQs atendidas** | [B-REQ-01 — Cadastro Simplificado de Ativos de TI](../../prj-negocio/requisitos/requisitos-negocio.md) · [B-REQ-02 — Motor Financeiro de Triagem (Regra dos 40%)](../../prj-negocio/requisitos/requisitos-negocio.md) |
 | **Features** | 5 (`FEATURE-0001.0001` … `FEATURE-0001.0005`) |
 | **Origem** | [Requisitos de Negócio](../../prj-negocio/requisitos/requisitos-negocio.md) · [PEDIDO](../../prj-negocio/discovery/PEDIDO.md) · [BRAINSTORM](../discovery/BRAINSTORM.md) · [mapeamento](../rastreabilidade.md) |
-| **Priorização** | [backlog](../backlog/BACKLOG-LIST.md) |
-| **Prioridade** | **Onda 1-Must (MVP mínimo) + Onda 2-Should (MVP completo)** — derivada das features (1 × Onda 1-Must (MVP mínimo) · 4 × Onda 2-Should (MVP completo)) · ver [backlog](../backlog/BACKLOG-LIST.md) |
+| **Priorização** | [backlog](../../../../docs/produto/backlog/BACKLOG-LIST.md) |
+| **Prioridade** | **Onda 1-Must (MVP mínimo) + Onda 2-Should (MVP completo)** — derivada das features (1 × Onda 1-Must (MVP mínimo) · 4 × Onda 2-Should (MVP completo)) · ver [backlog](../../../../docs/produto/backlog/BACKLOG-LIST.md) |
 | **Status** | 📝 Rascunho (2026-10-20) |
 
 ---
@@ -21,7 +21,7 @@
 
 ## 2. Fora do escopo deste épico
 
-- No Onda 1-Must (MVP mínimo) entra só a `FEATURE-0001.0001` (recebimento) — as outras 4 features do épico são Onda 2-Should (MVP completo) ([backlog](../backlog/BACKLOG-LIST.md)).
+- No Onda 1-Must (MVP mínimo) entra só a `FEATURE-0001.0001` (recebimento) — as outras 4 features do épico são Onda 2-Should (MVP completo) ([backlog](../../../../docs/produto/backlog/BACKLOG-LIST.md)).
 - O motor de viabilidade (`FEATURE-0001.0002`) depende de custos de peças e mão de obra que vêm do EPIC-0005 — fora da primeira fatia.
 
 ## 3. Features e stories derivadas

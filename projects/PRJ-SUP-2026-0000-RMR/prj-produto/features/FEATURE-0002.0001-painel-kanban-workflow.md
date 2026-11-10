@@ -17,7 +17,7 @@
 
 Dar ao time da oficina (e operadores das etapas finais) **um único painel** para ver os itens por etapa e **operar todas as transições do workflow** da Onda 1-Must (MVP mínimo) — `TRIAGEM → TESTE INICIAL → REPARO → RECICLAGEM → RUN IN → EMBALAGEM → EXPEDIÇÃO` (+ sucata) — com auditoria por etapa.
 
-> 💡 **Nota de escopo:** o título original ("controle do status do conserto pelos técnicos") foi ampliado para **operação do workflow completo**, porque a definição do [Onda 1-Must (MVP mínimo)](../backlog/BACKLOG-LIST.md) exige que o item percorra **todas** as etapas e nenhuma outra feature do mapeamento é dona delas (R26–R35). A **expedição (R36/R37) foi extraída para a [FEATURE-0002.0005](FEATURE-0002.0005-expedicao.md)** — decisão da Operação/PO em 2026-10-16 (PENDENCY-0004).
+> 💡 **Nota de escopo:** o título original ("controle do status do conserto pelos técnicos") foi ampliado para **operação do workflow completo**, porque a definição do [Onda 1-Must (MVP mínimo)](../../../../docs/produto/backlog/BACKLOG-LIST.md) exige que o item percorra **todas** as etapas e nenhuma outra feature do mapeamento é dona delas (R26–R35). A **expedição (R36/R37) foi extraída para a [FEATURE-0002.0005](FEATURE-0002.0005-expedicao.md)** — decisão da Operação/PO em 2026-10-16 (PENDENCY-0004).
 
 ## 2. Escopo
 
