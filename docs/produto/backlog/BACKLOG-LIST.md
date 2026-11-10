@@ -1,6 +1,7 @@
 # 📚 Backlog — lista única
 
 > **O que é:** a lista de itens executáveis do produto — um item por linha. **Feature e épico são hierarquia, não item** (o vínculo está no ID `US-FEAT-{feature}-{SSSS}` e no card); a lista opera no nível em que a sprint trabalha: **User Story**, Enabler, Architectural Runway e ocorrências.
+> **Features demandadas (sem stories)**: entram na fila como linha `Tipo=Feature`, `Check=💡` (gatilho para o PM/PO escrever/aprovar as stories). `Contexto` traz a B-REQ/R que a feature satisfaz; o traço completo fica na [rastreabilidade](../../../projects/PRJ-SUP-2026-0000-RMR/prj-produto/rastreabilidade.md).
 > **O que não é:** critérios de priorização ([README da pasta](README.md)) · decisões de escopo e definição de onda (no projeto) · tipos e IDs ([padrão de identificação](https://github.com/fbso-techservice/platform-standards/blob/main/standards/agile/padrao-identificacao-entidades.md)) · especificação de cada item (documento próprio — **aponta, não copia**).
 
 > **Leitura:** status — ⬜ A fazer · 🔄 Em execução · ✅ Entregue · 🕓 Adiada · ❌ Cancelada · cortes — S1 = 19–30/10 · S2 = 02/11 · S3 = 16/11 · S4 = 30/11 · S5 = 14/12 · **Onda 2-Should (MVP completo)** = rolling wave, sem sprint (fatiamento S2–S5 **validado** no projeto). Regras e semântica das colunas: [README da pasta](README.md).
@@ -57,10 +58,3 @@
 | 💡 | [PRJ-SUP-2026-0000-RMR](../../../projects/PRJ-SUP-2026-0000-RMR/PRD.md) | — | Feature | **FEATURE-0005.0003** | Motor de Recuperação de Valor | B-REQ-10 | — | — | Onda 2-Should (MVP completo) | — | — | — | — | — |
 | 💡 | [PRJ-SUP-2026-0000-RMR](../../../projects/PRJ-SUP-2026-0000-RMR/PRD.md) | — | Feature | **FEATURE-0005.0004** | Venda (catálogo, precificação, NF) | B-REQ-09 (venda) | — | — | Onda 3-Could (Integração & Valor) | — | — | — | — | — |
 | 💡 | [PRJ-SUP-2026-0000-RMR](../../../projects/PRJ-SUP-2026-0000-RMR/PRD.md) | — | Feature | **FEATURE-0005.0006** | Baixa patrimonial contábil | B-REQ-04 | — | — | Onda 2-Should (MVP completo) | — | — | — | — | — |
-
-> **Features demandadas (sem stories)**: entram na fila como linha `Tipo=Feature`, `Check=💡` (gatilho para o PM/PO escrever/aprovar as stories). `Contexto` traz a B-REQ/R que a feature satisfaz; o traço completo fica na [rastreabilidade](../../../projects/PRJ-SUP-2026-0000-RMR/prj-produto/rastreabilidade.md).
-
-> **Sprint 1 — leitura do status:** concluída na review de 30/10 — 8 enablers 🔵 + 3 runways `✅ Entregue`; ENABLER-0006/ENABLER-0010 e a runway de workflow, iniciados na S1, **seguem em execução na Sprint 2** (gates de review/teste/deploy pendentes). Posição item a item no [board da Sprint 1](../../../projects/PRJ-SUP-2026-0000-RMR/prj-produto/sprints/board-sprint-0001.md) — [PENDENCY-0033](../../../projects/PRJ-SUP-2026-0000-RMR/pendencias.md) ✅.
-
-> **Ocorrências** (débito técnico, bug, incidente): entram nesta mesma tabela com o `Tipo` correspondente. Hoje: **0** — o quadro abre com o primeiro item. Questão que exige **decisão** de alguém não entra aqui → [hub de pendências](../../../projects/PRJ-SUP-2026-0000-RMR/pendencias.md).
-

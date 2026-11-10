@@ -7,7 +7,7 @@
 # Sai com código 1 se houver pendência vencida (útil para CI/cron futuro).
 set -euo pipefail
 
-HUB="$(cd "$(dirname "$0")/.." && pwd)/docs/pendencias.md"
+HUB="$(cd "$(dirname "$0")/.." && pwd)/projects/PRJ-SUP-2026-0000-RMR/pendencias.md"
 [ -f "$HUB" ] || { echo "❌ Hub não encontrado: $HUB"; exit 2; }
 
 HOJE=$(date +%F)
