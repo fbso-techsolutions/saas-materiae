@@ -6,7 +6,8 @@ Nível **produto** do RMR: o que o produto faz, independentemente de projeto.
 
 A lista única de itens do produto (features, stories, enablers, bugs...) vive em
 [`backlog/BACKLOG-LIST.md`](backlog/BACKLOG-LIST.md): âmbito produto, com a coluna `Check`
-indicando a fase de cada item.
+indicando a fase de cada item. As regras e semântica das colunas estão no
+[`backlog/README.md`](backlog/README.md).
 
 ## Catálogo de capacidades
 
