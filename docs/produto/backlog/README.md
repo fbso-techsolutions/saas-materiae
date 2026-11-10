@@ -68,6 +68,24 @@ A lista responde *onde o item está na gestão* com **5 estados**; a execução 
 - `Contexto` traz a `B-REQ/R` que a feature satisfaz; `Entregue por` traz o **horizonte** (`Onda …`).
 - **Regra de saída:** quando a feature for detalhada, a linha dela é substituída pelas **stories** (que entram como item).
 
+### Frente cross-repo (demanda → feature local)
+
+Quando a frente vem de outro repo (feature-origem), a linha evolui em **duas fases**:
+
+**Fase 1: demanda (aponta só para a origem):**
+
+| Check | Projeto | Feature | Tipo | ID | Depende de |
+|---|---|---|---|---|---|
+| 💡 | `[PRJ-PLAT-2026-0001-PIX](https://github.com/fbso-techservice/svc-pix/…)` | `[FEATURE-0001.0001](https://github.com/fbso-techservice/svc-pix/…)` | Feature | — | — |
+
+**Fase 2: feature local criada (origem vira dependência):**
+
+| Check | Projeto | Feature | Tipo | ID | Depende de |
+|---|---|---|---|---|---|
+| 💡 | `[PRJ-FISC-2026-0001](…)` | — | Feature | `FEATURE-0002.0001` | `[FEATURE-0001.0001](https://github.com/fbso-techservice/svc-pix/…)` |
+
+> **Regra:** quando o time do destino criar a feature local, atualize a linha **no mesmo passo**: a origem migra de `Projeto`/`Feature` para `Depende de`.
+
 ## 5. Ocorrências
 
 - Débito técnico, bug e incidente entram na **mesma tabela**, com o `Tipo` correspondente.
