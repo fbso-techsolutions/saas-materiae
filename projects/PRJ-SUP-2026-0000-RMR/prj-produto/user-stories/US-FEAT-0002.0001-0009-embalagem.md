@@ -42,7 +42,7 @@
 
 ## 4. Não funcionais
 
-- **Etiqueta final (R34) fica de fora da Onda 1-Must (MVP mínimo)** (FEATURE-0002.0002) — a embalagem **não** depende de impressão (*confirmado com a Operação em 2026-10-16 — [checklist A1](../backlog/checklist-operacao-po-onda-1.md)*).
+- **Etiqueta final (R34) fica de fora da Onda 1-Must (MVP mínimo)** (FEATURE-0002.0002) — a embalagem **não** depende de impressão (*confirmado com a Operação em 2026-10-16 — [checklist A1](../discovery/checklist-operacao-po-onda-1.md)*).
 
 ---
 

@@ -34,7 +34,7 @@ Receber o ativo que chega da logística reversa, **identificá-lo e categorizá-
 
 | ID | Regra |
 |---|---|
-| BR-1.1.1 | Todo ativo recebido recebe registro único com identificador; **um item em processo ativo não pode ser recebido duas vezes** (bloqueio com aviso) — *regra **confirmada** com as áreas em 2026-10-16 ([checklist C1](../backlog/checklist-operacao-po-onda-1.md))* |
+| BR-1.1.1 | Todo ativo recebido recebe registro único com identificador; **um item em processo ativo não pode ser recebido duas vezes** (bloqueio com aviso) — *regra **confirmada** com as áreas em 2026-10-16 ([checklist C1](../discovery/checklist-operacao-po-onda-1.md))* |
 | BR-1.1.2 | Recebimento exige: identificador + categoria/modelo + NF de entrada |
 | BR-1.1.3 | O defeito reclamado é selecionado do **cadastro mínimo embutido da Onda 1-Must (MVP mínimo)** (decisão [D-02](../backlog/DECISOES-BACKLOG.md); FEATURE-0001.0003 assume o catálogo completo em Onda 2-Should (MVP completo)) |
 | BR-1.1.4 | Ao concluir, o item nasce em **TRIAGEM** e a transição registra ator, data/hora, local e identificador (R20) |
@@ -69,7 +69,7 @@ flowchart LR
 
 1. ✅ **PENDENCY-0001 — R23 — Watchlist** (blacklist/scrap/boomerang): **decidida em 2026-10-16 — nova feature [FEATURE-0001.0005](../rastreabilidade.md)** (EPIC-0001, Onda 2-Should (MVP completo), fora da Onda 1-Must (MVP mínimo)), absorvendo R19 (cadastro) + R23 (validação na triagem).
 2. ✅ **PENDENCY-0002 — Taxonomia de categorias** da B-REQ-01 — **respondida em 2026-10-16**: estrutura de entidades criada primeiro ([taxonomia-entidades-cadastro-ativos](../../../../docs/negocio/taxonomia-entidades-cadastro-ativos.md)) — 3 eixos (destino × linha oficial × fração), Onda 1-Must (MVP mínimo) = Linha Verde, tabelas aptas às demais linhas.
-3. ✅ **PENDENCY-0009 — Regras derivadas** — **confirmadas em 2026-10-16** ([checklist C1/C2](../backlog/checklist-operacao-po-onda-1.md)): BR-1.1.1 (bloqueio de duplicidade) e US-FEAT-0002.0005-0010 cen. 3 (item só sai uma vez, agora BR-2.5.3 na [FEATURE-0002.0005](../rastreabilidade.md)).
+3. ✅ **PENDENCY-0009 — Regras derivadas** — **confirmadas em 2026-10-16** ([checklist C1/C2](../discovery/checklist-operacao-po-onda-1.md)): BR-1.1.1 (bloqueio de duplicidade) e US-FEAT-0002.0005-0010 cen. 3 (item só sai uma vez, agora BR-2.5.3 na [FEATURE-0002.0005](../rastreabilidade.md)).
 
 ## 7. Critérios de aceite da feature (definition of done)
 

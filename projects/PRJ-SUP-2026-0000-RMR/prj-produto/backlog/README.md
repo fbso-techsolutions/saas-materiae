@@ -6,7 +6,6 @@
 |---|---|---|
 | [BACKLOG-LIST.md](../../../../docs/produto/backlog/BACKLOG-LIST.md) | **Lista única** — 35 itens executáveis (21 user stories · 10 enablers · 4 runways) + 13 features demandadas (linhas `Tipo=Feature`) | ✅ 2026-10-29 |
 | [DECISOES-BACKLOG.md](DECISOES-BACKLOG.md) | **D-01 … D-14** — decisões de escopo, priorização e fluxo (2026-10-16/11-03) | ✅ Registrado |
-| [checklist-operacao-po-onda-1.md](checklist-operacao-po-onda-1.md) | **Checklist de reunião** com Operação/PO — 5 itens (PENDENCY-0004/0005/0006/0009) | ✅ Revisado — 5/5 (2026-10-16) |
 | [wsjf-features-pipeline.md](../features/wsjf-features-pipeline.md) | **WSJF das 13 features demandadas** (nível Programa) — CoD ÷ Job Size para ordenar o detalhamento | 📝 Proposta (2026-11-03) |
 
 **Documentos vizinhos:** definição da Onda 1-Must (MVP mínimo) → [escopo-onda-1](../escopo-onda-1.md) · prioridades das [B-REQ](../../prj-negocio/requisitos/requisitos-negocio.md) · rastreio → [rastreabilidade](../rastreabilidade.md) · buckets do [BRAINSTORM §4.2](../discovery/BRAINSTORM.md) · capacidade → [equipe §3.2](../../equipe.md) · decisões que exigem alguém → [pendencias](../../pendencias.md).

@@ -81,7 +81,7 @@
 - **Impacto:** define quem provisiona máquina, acessos e a rotina de deploy (C4) — e **confina a stack do A1** ao que roda em Compose (Kong/Istio/DOKS/Redis ficam de fora da Onda 1-Must (MVP mínimo)).
 
 ### C2. Terminais e leitores da oficina
-- **Pergunta:** a Onda 1-Must (MVP mínimo) opera **sem mouse** (DoD FEATURE-0002.0001/FEATURE-0002.0005): qual **leitor de código** — USB HID (emula teclado) × Bluetooth? Qual navegador nos terminais da oficina? Smart card será **registro manual** na Onda 1-Must (MVP mínimo) (decisão A2 do [checklist Operação/PO](../prj-produto/backlog/checklist-operacao-po-onda-1.md)) — confirmar que nada exige driver/app.
+- **Pergunta:** a Onda 1-Must (MVP mínimo) opera **sem mouse** (DoD FEATURE-0002.0001/FEATURE-0002.0005): qual **leitor de código** — USB HID (emula teclado) × Bluetooth? Qual navegador nos terminais da oficina? Smart card será **registro manual** na Onda 1-Must (MVP mínimo) (decisão A2 do [checklist Operação/PO](../prj-produto/discovery/checklist-operacao-po-onda-1.md)) — confirmar que nada exige driver/app.
 - **Sugestão para a Onda 1-Must (MVP mínimo):** leitor **USB HID** (zero driver), **Chrome/Edge** atualizado; validar em **1 terminal real** da oficina antes da Sprint 1.
 - **Resposta:** `Leitor de código? USB HID (emula teclado) e Bluetooth. Qual navegador nos terminais da oficina? Firefox e Google Chrome. Smart card será registro manual na Onda 1-Must (MVP mínimo).`
 - **Status:** ✅ · **Dono:** Engenharia + Operação · **Prazo:** antes da Sprint 1

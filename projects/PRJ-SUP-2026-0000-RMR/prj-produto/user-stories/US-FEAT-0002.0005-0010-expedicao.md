@@ -34,7 +34,7 @@
 ### Cenário 3: Item só sai uma vez
 - **Dado** um item **já expedido** ou pertencente a **outro pallet/processo ativo**,
 - **Quando** o operador tenta lê-lo,
-- **Então** a leitura é **bloqueada** informando o motivo — um item só sai uma vez (*regra **confirmada** com as áreas em 2026-10-16 — [checklist C2](../backlog/checklist-operacao-po-onda-1.md)*).
+- **Então** a leitura é **bloqueada** informando o motivo — um item só sai uma vez (*regra **confirmada** com as áreas em 2026-10-16 — [checklist C2](../discovery/checklist-operacao-po-onda-1.md)*).
 
 ### Cenário 4: Conclusão bloqueada sem NF
 - **Dado** o pallet sem NF informada,

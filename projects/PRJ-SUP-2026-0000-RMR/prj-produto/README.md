@@ -15,6 +15,6 @@
 
 > 📄 **Templates (genéricos, em `platform-standards/standards/agile/`):** [documento de sprint](https://github.com/fbso-techservice/platform-standards/blob/main/standards/agile/template-sprint-v1.md) → `sprint-{NNNN}.md` · [board de sprint](https://github.com/fbso-techservice/platform-standards/blob/main/standards/agile/template-board-sprint-v1.md) → `board-sprint-{NNNN}.md`. Copie para [sprints/](sprints) e preencha os campos `{…}` com os dados do projeto (marca, código, IDs, links). Estados/fluxo do board: [sprints/README §Board](sprints/README.md#board-da-sprint).
 
-**Checklists de controle:** [decisões do MVP](discovery/checklist-decisoes-mvp.md) · [Operação/PO da Onda 1-Must (MVP mínimo)](backlog/checklist-operacao-po-onda-1.md).
+**Checklists de controle:** [decisões do MVP](discovery/checklist-decisoes-mvp.md) · [Operação/PO da Onda 1-Must (MVP mínimo)](discovery/checklist-operacao-po-onda-1.md).
 
 **Dívida de documentação:** [PENDENCY-0030](../pendencias.md) (limpeza dos travessões do texto legado, D-06) · [PENDENCY-0031](../pendencias.md) (requisitos sem feature no backlog).

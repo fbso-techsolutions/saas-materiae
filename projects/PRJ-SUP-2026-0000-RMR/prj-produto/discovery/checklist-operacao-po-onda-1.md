@@ -9,9 +9,9 @@
 | Data da resposta | 2026-10-16 |
 | Itens | 5 de 5 **respondidos** ✅ (§A Operação da Onda 1-Must (MVP mínimo) · §B Escopo do workflow · §C Regras derivadas) |
 | Fonte | Pendências **PENDENCY-0004, PENDENCY-0005, PENDENCY-0006, PENDENCY-0009** do [hub](../../pendencias.md) · detalhe nos cards [FEATURE-0002.0001](../features/FEATURE-0002.0001-painel-kanban-workflow.md) e [FEATURE-0001.0001](../features/FEATURE-0001.0001-recebimento-ativos.md) |
-| Status do doc | ✅ **Revisado — decisões incorporadas a FEATURE-0002.0001/FEATURE-0002.0005/FEATURE-0001.0001/US-FEAT-0002.0005-0010 e ao [registro de decisões](DECISOES-BACKLOG.md)** |
+| Status do doc | ✅ **Revisado — decisões incorporadas a FEATURE-0002.0001/FEATURE-0002.0005/FEATURE-0001.0001/US-FEAT-0002.0005-0010 e ao [registro de decisões](../backlog/DECISOES-BACKLOG.md)** |
 
-> **Como usar:** uma linha por pendência. Preencher **Resposta** (decisão concreta), marcar o **Status** e assinalar quem ficou **Dono** de follow-ups. Decisões tomadas aqui **voltam para os cards** (FEATURE-0002.0001 §3/§6, FEATURE-0001.0001 §3, US-FEAT-0002.0005-0010) e para o [registro de decisões](DECISOES-BACKLOG.md) — este checklist é só a ata de trabalho.
+> **Como usar:** uma linha por pendência. Preencher **Resposta** (decisão concreta), marcar o **Status** e assinalar quem ficou **Dono** de follow-ups. Decisões tomadas aqui **voltam para os cards** (FEATURE-0002.0001 §3/§6, FEATURE-0001.0001 §3, US-FEAT-0002.0005-0010) e para o [registro de decisões](../backlog/DECISOES-BACKLOG.md) — este checklist é só a ata de trabalho.
 
 **Legenda de Status:** ⬜ Não respondida · ⏳ Em discussão · ✅ Decidida · ❌ Adiada (com nova data)
 
@@ -68,4 +68,4 @@
 | Follow-ups (dono + prazo) | `Reavaliar FEATURE-0002.0005 se crescer volume/complexidade (PO — pós-Sprint 1)` |
 | Próxima reunião (se houver) | `não necessária — ciclo fechado` |
 
-**Após a reunião:** ✅ [FEATURE-0002.0001](../features/FEATURE-0002.0001-painel-kanban-workflow.md) ajustada (expedição removida, §6 fechada) · ✅ [FEATURE-0002.0005](../features/FEATURE-0002.0005-expedicao.md) criada · ✅ [FEATURE-0001.0001](../features/FEATURE-0001.0001-recebimento-ativos.md) (BR-1.1.1 confirmada) · ✅ [US-FEAT-0002.0005-0010](../user-stories/US-FEAT-0002.0005-0010-expedicao.md) migrada · ✅ **PENDENCY-0004/PENDENCY-0005/PENDENCY-0006/PENDENCY-0009 → ✅ no [hub](../../pendencias.md)** · ✅ [decisão D-08](DECISOES-BACKLOG.md) · checklist ✅ Revisado — **pronto para abrir a Sprint 1**.
+**Após a reunião:** ✅ [FEATURE-0002.0001](../features/FEATURE-0002.0001-painel-kanban-workflow.md) ajustada (expedição removida, §6 fechada) · ✅ [FEATURE-0002.0005](../features/FEATURE-0002.0005-expedicao.md) criada · ✅ [FEATURE-0001.0001](../features/FEATURE-0001.0001-recebimento-ativos.md) (BR-1.1.1 confirmada) · ✅ [US-FEAT-0002.0005-0010](../user-stories/US-FEAT-0002.0005-0010-expedicao.md) migrada · ✅ **PENDENCY-0004/PENDENCY-0005/PENDENCY-0006/PENDENCY-0009 → ✅ no [hub](../../pendencias.md)** · ✅ [decisão D-08](../backlog/DECISOES-BACKLOG.md) · checklist ✅ Revisado — **pronto para abrir a Sprint 1**.
