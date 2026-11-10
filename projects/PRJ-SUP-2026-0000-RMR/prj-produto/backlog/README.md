@@ -4,7 +4,7 @@
 
 | Documento | Conteúdo | Status |
 |---|---|---|
-| [BACKLOG-LIST.md](../../../../docs/produto/backlog/BACKLOG-LIST.md) | **Lista única** — 35 itens executáveis (21 user stories · 10 enablers · 4 architectural runways) + **pipeline** das 13 features ainda sem stories. Um item por linha, só com o essencial e o link do documento do item. | ✅ 2026-10-29 |
+| [BACKLOG-LIST.md](../../../../docs/produto/backlog/BACKLOG-LIST.md) | **Lista única** — 35 itens executáveis (21 user stories · 10 enablers · 4 architectural runways) + 13 features demandadas (linhas `Tipo=Feature`). Um item por linha, só com o essencial e o link do documento do item. | ✅ 2026-10-29 |
 | [DECISOES-BACKLOG.md](DECISOES-BACKLOG.md) | **D-01 … D-14** — decisões de escopo, priorização e fluxo (2026-10-16/11-03), uma linha cada, com link ao detalhe | ✅ Registrado |
 | [checklist-operacao-po-onda-1.md](checklist-operacao-po-onda-1.md) | **Checklist de reunião** com Operação/PO — 5 itens (PENDENCY-0004/PENDENCY-0005/PENDENCY-0006/PENDENCY-0009) com espaço para resposta/status/dono; fechar **antes da Sprint 2 (Onda 1-Must (MVP mínimo))** | ✅ Revisado — 5/5 decididas em 2026-10-16 |
 | [wsjf-features-pipeline.md](../features/wsjf-features-pipeline.md) | **WSJF das 13 features do pipeline** (nível Programa) · tabela comparativa CoD ÷ Job Size para ordenar o detalhamento (rolling wave) na reunião de priorização | 📝 Proposta (2026-11-03) |
@@ -20,8 +20,8 @@
 A lista tem **um item por linha** e opera no nível em que a sprint trabalha:
 
 - **Entra como item:** **User Story** · **Enabler** · **Architectural Runway** · **Task** (saída do Planning) · **Ocorrência** (débito técnico · bug · incidente).
-- **Entra no pipeline (não na tabela):** feature ainda **sem stories** — é escopo, não trabalho executável.
-- **Não entra:** **Feature** e **Épico** (hierarquia, não item) · **decisão/pendência** que exige resposta de alguém → [hub](../../pendencias.md) (`PENDENCY-NNNN`).
+- **Entra como linha de demanda:** **Feature** ainda **sem stories**: entra na mesma tabela como `Tipo=Feature`, `Check=💡` (gatilho para o PM/PO escrever as stories).
+- **Não entra:** **Épico** (hierarquia, não item) · **decisão/pendência** que exige resposta de alguém → [hub](../../pendencias.md) (`PENDENCY-NNNN`).
 
 **Por que a unidade é a user story:** é a única entidade com **estimativa** (SP) — a feature não tem. E uma sprint **pode não comportar todas as stories de uma feature**: a Onda 1-Must (MVP mínimo) tem **45 SP** para **14 SP por sprint**, ou seja ~4 sprints, não uma. Sem a story como unidade, o backlog não mostra carga.
 
@@ -29,18 +29,33 @@ A lista tem **um item por linha** e opera no nível em que a sprint trabalha:
 
 | Coluna | Regra |
 |---|---|
-| **Tipo** | `User Story` · `Enabler` · `Architectural Runway` · `Débito técnico` · `Bug` · `Incidente` (taxonomia em [padrão §2](https://github.com/fbso-techservice/platform-standards/blob/main/standards/agile/padrao-identificacao-entidades.md#2-tabela-mestra-das-entidades)) |
-| **ID** | ID da entidade, sem link — o link fica em `Contexto` |
+| **Check** | ciclo de vida (🚩💡👷🏁🚫): **derivado** de `Status` + `Entregue por` + `Tipo` (tabela abaixo); nunca preenchido à mão |
+| **Projeto** | código + link do projeto (`PRJ-…`): origem do item (essencial com múltiplos projetos) |
+| **Feature** | código + link da feature pai (`FEATURE-{épico}.{NNNN}`); enablers/runways ficam `—`; o épico fica codificado na feature (não há coluna `Épico`) |
+| **Tipo** | `User Story` · `Enabler` · `Architectural Runway` · `Débito técnico` · `Bug` · `Incidente` · `Feature` (demanda): taxonomia em [padrão §2](https://github.com/fbso-techservice/platform-standards/blob/main/standards/agile/padrao-identificacao-entidades.md#2-tabela-mestra-das-entidades) |
+| **ID** | ID da entidade, sem link: o link fica em `Contexto` |
 | **Título** | descrição curta do item |
-| **Contexto** | **só o link ao documento do item** (`User Story` · `Enabler` · `Architectural Runway`). Sem texto ao lado: a hierarquia vem do ID (`US-FEAT-{feature}-{SSSS}`) e o domínio da runway, do próprio card |
-| **Est.** | Story → pontos (SP) · Enabler → Job Size (escala própria, **não converte** para SP) · Runway → `—` |
-| **Dono** | pessoa/área que entrega · **nome completo** da pessoa (fonte única: [equipe](../../equipe.md)) · story sem dono até o planning (`—`) |
-| **Entregue por** | Story e Enabler → **Sprint** que entrega, com **link ao documento da sprint** (`[S2 (02/11)](../sprints/sprint-2.md)`…) · Runway → **Enabler** que a entrega, com link ao card do enabler · `Onda 2-Should (MVP completo)` (rolling wave, sem sprint) → sem link |
-| **Depende de** | Story → outra(s) **story** · Enabler → outro(s) **enabler** — sempre com o **nome do item + link** ao documento dele (ex.: `[0001 — Registrar recebimento de ativo na triagem](…)`) |
-| **Travada por** | o que **impede construir/entregar** (enabler, pendência, bug) — não é dependência de negócio. **Ícone por linha:** 🔒 não resolvido · ✅ resolvido. O ID aponta para o **documento de detalhe** (a Origem no hub). Depois do corte da sprint, registra só o que ainda trava |
-| **Status** | Camada grossa — ⬜ A fazer · 🔄 Em execução · ✅ Entregue · 🕓 Adiada · ❌ Cancelada (§3) |
+| **Contexto** | link ao documento do item; em feature sem card, a **B-REQ/R** que ela satisfaz |
+| **Est.** | Story → pontos (SP) · Enabler → Job Size (escala própria, **não converte** para SP) · Runway/Feature → `—` |
+| **Dono** | pessoa/área que entrega · **nome completo** (fonte única: [equipe](../../equipe.md)) · sem dono até o planning (`—`) |
+| **Entregue por** | Story e Enabler → **Sprint** com **link** (`[S2 (02/11)](../sprints/sprint-2.md)`…) · Runway → **Enabler** que a entrega · Feature → **horizonte** (`Onda 2-Should (MVP completo)`) · rolling wave sem link |
+| **Depende de** | Story → outra(s) **story** · Enabler → outro(s) **enabler**: sempre com **nome + link** |
+| **Travada por** | o que **impede construir/entregar** (enabler, pendência, bug): não é dependência de negócio. **Ícone:** 🔒 não resolvido · ✅ resolvido |
+| **Status** | execução: ⬜ A fazer · 🔄 Em execução · ✅ Entregue · 🕓 Adiada · ❌ Cancelada (§3) |
+| **Task** | código + link da task que resolveu/implantou o item (rolling wave `—`) |
+| **Release** | código + link da release que resolveu/implantou o item (rolling wave `—`) |
 
-**Princípio: coluna só para o que não é derivável.** Foi por isso que `Faixa` (Onda 1-Must (MVP mínimo)/Onda 2-Should (MVP completo)/Onda 3-Could (Integração & Valor)) saiu dos itens — ela repetia `Entregue por` (Onda 1-Must (MVP mínimo) × Onda 2-Should (MVP completo)) e, nos enablers, repetia a própria sprint e o status. A prioridade de origem vive no card/B-REQ e na `Faixa` do **pipeline**.
+**Regra de derivação do `Check`:**
+
+| Check | Derivação |
+|---|---|
+| 🏁 Concluído | `Status` = ✅ |
+| 🚫 Cancelado | `Status` = ❌ |
+| 👷 Em implementação | tem sprint (`Entregue por` = S1…S5) e `Status` ∈ {⬜, 🔄} |
+| 💡 Em documentação | sem sprint (`Onda`/rolling wave) **ou** `Tipo=Feature` |
+| 🚩 Não-iniciado | requisito sem épico (na rastreabilidade; não aparece na lista) |
+
+**Princípio: coluna só para o que não é derivável.** Foi por isso que `Faixa` (Onda 1-Must (MVP mínimo)/Onda 2-Should (MVP completo)/Onda 3-Could (Integração & Valor)) saiu dos itens — ela repetia `Entregue por` (Onda 1-Must (MVP mínimo) × Onda 2-Should (MVP completo)) e, nos enablers, repetia a própria sprint e o status. A prioridade de origem vive no card/B-REQ e no horizonte (`Entregue por` da linha `Tipo=Feature`).
 
 ### 3. Status em duas camadas
 
@@ -81,11 +96,11 @@ A **lista** responde *onde o item está na gestão* com **5 estados**; o **board
 | `Deploy` | `Em Deploy` → `Concluído` | faltava o **terminal** (deploy é processo, não resultado) |
 | — | `Bloqueado` (marcador) | usa `Travada por` (🔒/✅), não é coluna de status |
 
-### 4. Pipeline de features sem stories
+### 4. Features demandadas (sem stories)
 
-- Fecha a lista com as features ainda **não detalhadas em stories** e **sem card próprio** (rolling wave).
-- Colunas: `Feature · Faixa · B-REQ · R · Travada por` — a `Faixa` (`Onda 1-Must (MVP mínimo)` / `Onda 2-Should (MVP completo)` / `Onda 3-Could (Integração & Valor)`) existe **só aqui**, porque essas features não têm sprint.
-- **Regra de saída:** quando a feature for detalhada, ela sai do pipeline e entram as stories na tabela de itens. O pipeline não guarda histórico.
+- Features ainda **não detalhadas em stories** entram **na mesma tabela** como linha `Tipo=Feature`, `Check=💡` (a antiga tabela "pipeline" foi absorvida).
+- `Contexto` traz a `B-REQ/R` que a feature satisfaz; `Entregue por` traz o **horizonte** (`Onda 2-Should (MVP completo)` / `Onda 3-Could (Integração & Valor)`).
+- **Regra de saída:** quando a feature for detalhada, a linha dela é substituída pelas **stories** (que entram como item).
 
 ### 5. Ocorrências
 
@@ -105,8 +120,8 @@ A **lista** responde *onde o item está na gestão* com **5 estados**; o **board
 | Mudou | O que atualizar |
 |---|---|
 | Item novo (qualquer tipo) | Linha na tabela de itens, no mesmo passo |
-| Feature detalhada em stories | Sai do pipeline; entram as stories |
-| Ordem/corte | `Entregue por` (sprint) e, se for feature sem story, a `Faixa` do pipeline |
+| Feature detalhada em stories | A linha `Tipo=Feature` é substituída pelas **stories** (que entram como item) |
+| Ordem/corte | `Entregue por` (sprint do item; horizonte na linha `Tipo=Feature`) |
 | Status mudou no board | Atualizar a camada grossa na lista, no mesmo passo (mapping em §3) |
 | Escopo da Onda 1-Must (MVP mínimo) | [escopo-onda-1](../escopo-onda-1.md) + [PRD §6.2](../../PRD.md) |
 | Decisão de escopo/priorização | Linha em [DECISOES-BACKLOG](DECISOES-BACKLOG.md) — não no corpo da lista |
@@ -129,7 +144,7 @@ O antigo `BACKLOG-LIST` (140 linhas, 6 seções) foi separado em 2026-10-29 para
 | Conteúdo antigo | Onde vive agora |
 |---|---|
 | §1 Critérios de priorização | este README (§8) |
-| §2 Tabela priorizada de features | tabela de itens + pipeline do [BACKLOG-LIST](../../../../docs/produto/backlog/BACKLOG-LIST.md) |
+| §2 Tabela priorizada de features | tabela de itens do [BACKLOG-LIST](../../../../docs/produto/backlog/BACKLOG-LIST.md) (features viraram linhas `Tipo=Feature`) |
 | §3 Definição da fatia Onda 1-Must (MVP mínimo) | [escopo-onda-1](../escopo-onda-1.md) |
 | §4 Decisões registradas | [DECISOES-BACKLOG](DECISOES-BACKLOG.md) (D-01…D-14) |
 | §5 Próximo passo | [sprints/README](../sprints/README.md) |
