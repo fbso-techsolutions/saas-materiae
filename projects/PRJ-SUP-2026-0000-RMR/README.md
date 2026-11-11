@@ -23,4 +23,4 @@ Projeto de evolução do produto **RMR**: primeira entrega (Onda 1-Must / MVP m�
 
 ## Processo
 
-Padrões ágeis (INVEST, WSJF, MoSCoW, templates): [platform-standards/standards/agile/](https://github.com/fbso-techservice/platform-standards/tree/main/standards/agile)
+Padrões ágeis (INVEST, WSJF, MoSCoW, templates): [platform-standards/standards/agile/](https://github.com/fbso-techsolutions/platform-standards/tree/main/standards/agile)

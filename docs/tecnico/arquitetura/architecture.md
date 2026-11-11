@@ -92,7 +92,7 @@ flowchart TB
 | Dados | [mer.md](mer.md) · [erd.md](erd.md) · [data-dictionary.md](data-dictionary.md) · [datamapping.md](datamapping.md) | Modelo relacional, diagrama, dicionário, mapeamento externo | ✅ v1 (2026-10-21) |
 | Engenharia | [devops.md](devops.md) · [testing.md](testing.md) · [cloud.md](cloud.md) · [infrastructure.md](infrastructure.md) | CI/CD, testes, cloud, infraestrutura | ✅ v1 (2026-10-21) |
 | Segurança | [../seguranca/SECURITY.md](../seguranca/SECURITY.md) | Auth/Keycloak, RLS, STRIDE, auditoria, LGPD-técnico | ✅ v1 (2026-10-21) |
-| Diretrizes | [diretrizes-arquitetura.md](https://github.com/fbso-techservice/platform-standards/blob/main/standards/architecture/diretrizes-arquitetura.md) | API-First, `tenant_id`, SSO, APIs REST abertas | ✅ |
+| Diretrizes | [diretrizes-arquitetura.md](https://github.com/fbso-techsolutions/platform-standards/blob/main/standards/architecture/diretrizes-arquitetura.md) | API-First, `tenant_id`, SSO, APIs REST abertas | ✅ |
 | Gate da Onda 1-Must (MVP mínimo) | [checklist-arquitetura-onda-1.md](../../../projects/PRJ-SUP-2026-0000-RMR/prj-tecnico/checklist-arquitetura-onda-1.md) | 9 decisões do gate (PENDENCY-0015) | ✅ 9/9 (2026-10-19) |
 | Domínio / Inventário | [../domain.md](../domain.md) · [../inventory.md](../inventory.md) | Bounded contexts · soluções sistêmicas envolvidas | ✅ v1 (2026-10-21) |
 

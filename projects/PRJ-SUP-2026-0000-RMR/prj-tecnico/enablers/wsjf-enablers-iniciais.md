@@ -1,6 +1,6 @@
 # 📊 Avaliação WSJF — Enablers iniciais (ENABLER-0001 … ENABLER-0010)
 
-> **Fórmula:** WSJF = CoD ÷ Job Size · **CoD** = Valor de Negócio (A) + Criticidade de Tempo (B) + Redução de Risco / Oportunidade (C) · escala de Fibonacci (1, 2, 3, 5, 8, 13, 20). Padrão: [template WSJF tabela](https://github.com/fbso-techservice/platform-standards/blob/main/standards/agile/template-wsjf-tabela.md) · método: [guia WSJF](https://github.com/fbso-techservice/platform-standards/blob/main/standards/agile/guia-wsjf-priorizacao.md) (SAFe).
+> **Fórmula:** WSJF = CoD ÷ Job Size · **CoD** = Valor de Negócio (A) + Criticidade de Tempo (B) + Redução de Risco / Oportunidade (C) · escala de Fibonacci (1, 2, 3, 5, 8, 13, 20). Padrão: [template WSJF tabela](https://github.com/fbso-techsolutions/platform-standards/blob/main/standards/agile/template-wsjf-tabela.md) · método: [guia WSJF](https://github.com/fbso-techsolutions/platform-standards/blob/main/standards/agile/guia-wsjf-priorizacao.md) (SAFe).
 
 | Campo | Valor |
 |---|---|
@@ -38,7 +38,7 @@
 
 ## 3. Score alto ≠ ordem de execução
 
-O WSJF ordena **"o que vale mais a pena"**; o sequenciamento lógico ([guia §4.3](https://github.com/fbso-techservice/platform-standards/blob/main/standards/agile/guia-invest-enablers-spike.md)) ordena **"o que é possível executar"**. No Onda 1-Must (MVP mínimo), as duas ordens convergem com as dependências abaixo:
+O WSJF ordena **"o que vale mais a pena"**; o sequenciamento lógico ([guia §4.3](https://github.com/fbso-techsolutions/platform-standards/blob/main/standards/agile/guia-invest-enablers-spike.md)) ordena **"o que é possível executar"**. No Onda 1-Must (MVP mínimo), as duas ordens convergem com as dependências abaixo:
 
 ```
 ENABLER-0001 (ambiente base) ──┬──> ENABLER-0003 (Keycloak no Compose) ──> ENABLER-0010 (usuários + seeds)
@@ -52,7 +52,7 @@ ENABLER-0001 (ambiente base) ──┬──> ENABLER-0003 (Keycloak no Compose)
 
 ## 4. Regras de uso
 
-1. **Pontuar junto:** produto + técnica calibram os números **relativamente entre si** (não há ponto absoluto — [guia WSJF §1](https://github.com/fbso-techservice/platform-standards/blob/main/standards/agile/guia-wsjf-priorizacao.md)).
+1. **Pontuar junto:** produto + técnica calibram os números **relativamente entre si** (não há ponto absoluto — [guia WSJF §1](https://github.com/fbso-techsolutions/platform-standards/blob/main/standards/agile/guia-wsjf-priorizacao.md)).
 2. **Toda pontuação é proposta:** esta tabela entra na reunião como rascunho e sai revisada — registrar mudanças no Registro de Alterações.
 3. **Se o contexto mudar** (risco novo, dependência removida, prazo alterado), repontuar — WSJF não é eterno.
-4. **Cruzamento obrigatório com a matriz de decisão** do [guia §4.4](https://github.com/fbso-techservice/platform-standards/blob/main/standards/agile/guia-invest-enablers-spike.md) como conferência (bloqueia entrega crítica ⇒ máxima).
+4. **Cruzamento obrigatório com a matriz de decisão** do [guia §4.4](https://github.com/fbso-techsolutions/platform-standards/blob/main/standards/agile/guia-invest-enablers-spike.md) como conferência (bloqueia entrega crítica ⇒ máxima).

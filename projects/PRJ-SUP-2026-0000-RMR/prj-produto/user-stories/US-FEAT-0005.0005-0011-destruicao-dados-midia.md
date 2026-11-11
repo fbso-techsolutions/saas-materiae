@@ -8,7 +8,7 @@
 | **Data-alvo** | Sprint 2 (Onda 1-Must (MVP mínimo)) |
 | **Estimativa** | 4 pontos |
 | **Rastreio** | **B-REQ-05** (Termo de Destruição Segura de Dados) · R12 (serviço no HDD) |
-| **Versão** | 1.1 — layout INVEST/Gherkin ([guia ágil §5](https://github.com/fbso-techservice/platform-standards/blob/main/standards/agile/guia-invest-enablers-spike.md)) |
+| **Versão** | 1.1 — layout INVEST/Gherkin ([guia ágil §5](https://github.com/fbso-techsolutions/platform-standards/blob/main/standards/agile/guia-invest-enablers-spike.md)) |
 | **Status** | 📝 Rascunho (2026-10-16) |
 
 ---
@@ -58,4 +58,4 @@
 
 ---
 
-**Verificação INVEST** ([guia ágil §1](https://github.com/fbso-techservice/platform-standards/blob/main/standards/agile/guia-invest-enablers-spike.md)): **I** ✅ trava autônoma, acionável por qualquer rota de saída · **N** ✅ 7/7 decisões jurídicas já tomadas (checklist) · **V** ✅ requisito legal (LGPD — B-REQ-05) · **E** ✅ 4 pontos, decisões fechadas · **S** ✅ cabe numa Sprint · **T** ✅ 4 cenários testáveis.
+**Verificação INVEST** ([guia ágil §1](https://github.com/fbso-techsolutions/platform-standards/blob/main/standards/agile/guia-invest-enablers-spike.md)): **I** ✅ trava autônoma, acionável por qualquer rota de saída · **N** ✅ 7/7 decisões jurídicas já tomadas (checklist) · **V** ✅ requisito legal (LGPD — B-REQ-05) · **E** ✅ 4 pontos, decisões fechadas · **S** ✅ cabe numa Sprint · **T** ✅ 4 cenários testáveis.

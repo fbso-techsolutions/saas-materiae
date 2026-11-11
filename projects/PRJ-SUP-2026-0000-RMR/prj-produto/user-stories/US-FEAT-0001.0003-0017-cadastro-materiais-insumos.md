@@ -8,7 +8,7 @@
 | **Data-alvo** | MVP (Onda 2-Should (MVP completo)) — rolling wave |
 | **Estimativa** | 3 pontos |
 | **Rastreio** | B-REQ-01 (apoio) · R16 (materiais e insumos: código do ERP e descrição) |
-| **Versão** | 1.1 — layout INVEST/Gherkin ([guia ágil §5](https://github.com/fbso-techservice/platform-standards/blob/main/standards/agile/guia-invest-enablers-spike.md)) |
+| **Versão** | 1.1 — layout INVEST/Gherkin ([guia ágil §5](https://github.com/fbso-techsolutions/platform-standards/blob/main/standards/agile/guia-invest-enablers-spike.md)) |
 | **Status** | 📝 Rascunho (2026-10-16) |
 
 ---
@@ -47,4 +47,4 @@
 
 ---
 
-**Verificação INVEST** ([guia ágil §1](https://github.com/fbso-techservice/platform-standards/blob/main/standards/agile/guia-invest-enablers-spike.md)): **I** ✅ cadastro autônomo · **N** ✅ campos mínimos conversados (R16) · **V** ✅ OS padronizada e insumo de estoques · **E** ✅ 3 pontos · **S** ✅ cabe numa Sprint · **T** ✅ 3 cenários testáveis.
+**Verificação INVEST** ([guia ágil §1](https://github.com/fbso-techsolutions/platform-standards/blob/main/standards/agile/guia-invest-enablers-spike.md)): **I** ✅ cadastro autônomo · **N** ✅ campos mínimos conversados (R16) · **V** ✅ OS padronizada e insumo de estoques · **E** ✅ 3 pontos · **S** ✅ cabe numa Sprint · **T** ✅ 3 cenários testáveis.

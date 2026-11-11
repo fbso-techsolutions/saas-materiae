@@ -19,7 +19,7 @@ A lista tem **um item por linha** e opera no nível em que a sprint trabalha:
 | **Check** | ciclo de vida (🚩💡👷🏁🚫): **derivado** de `Status` + `Entregue por` + `Tipo` (tabela abaixo); nunca preenchido à mão |
 | **Projeto** | código + link do projeto (`PRJ-…`): origem do item (essencial com múltiplos projetos) |
 | **Feature** | código + link da feature pai (`FEATURE-{épico}.{NNNN}`); enablers/runways ficam `—`; o épico fica codificado na feature (não há coluna `Épico`) |
-| **Tipo** | `User Story` · `Enabler` · `Architectural Runway` · `Débito técnico` · `Bug` · `Incidente` · `Feature` (demanda): taxonomia em [padrão §2](https://github.com/fbso-techservice/platform-standards/blob/main/standards/agile/padrao-identificacao-entidades.md#2-tabela-mestra-das-entidades) |
+| **Tipo** | `User Story` · `Enabler` · `Architectural Runway` · `Débito técnico` · `Bug` · `Incidente` · `Feature` (demanda): taxonomia em [padrão §2](https://github.com/fbso-techsolutions/platform-standards/blob/main/standards/agile/padrao-identificacao-entidades.md#2-tabela-mestra-das-entidades) |
 | **ID** | ID da entidade, sem link: o link fica em `Contexto` |
 | **Título** | descrição curta do item |
 | **Contexto** | link ao documento do item; em feature sem card, a **B-REQ/R** que ela satisfaz |
@@ -76,13 +76,13 @@ Quando a frente vem de outro repo (feature-origem), a linha evolui em **duas fas
 
 | Check | Projeto | Feature | Tipo | ID | Depende de |
 |---|---|---|---|---|---|
-| 💡 | `[PRJ-PLAT-2026-0001-PIX](https://github.com/fbso-techservice/svc-pix/…)` | `[FEATURE-0001.0001](https://github.com/fbso-techservice/svc-pix/…)` | Feature | — | — |
+| 💡 | `[PRJ-PLAT-2026-0001-PIX](https://github.com/fbso-techsolutions/svc-pix/…)` | `[FEATURE-0001.0001](https://github.com/fbso-techsolutions/svc-pix/…)` | Feature | — | — |
 
 **Fase 2: feature local criada (origem vira dependência):**
 
 | Check | Projeto | Feature | Tipo | ID | Depende de |
 |---|---|---|---|---|---|
-| 💡 | `[PRJ-FISC-2026-0001](…)` | — | Feature | `FEATURE-0002.0001` | `[FEATURE-0001.0001](https://github.com/fbso-techservice/svc-pix/…)` |
+| 💡 | `[PRJ-FISC-2026-0001](…)` | — | Feature | `FEATURE-0002.0001` | `[FEATURE-0001.0001](https://github.com/fbso-techsolutions/svc-pix/…)` |
 
 > **Regra:** quando o time do destino criar a feature local, atualize a linha **no mesmo passo**: a origem migra de `Projeto`/`Feature` para `Depende de`.
 
@@ -99,7 +99,7 @@ Quando a frente vem de outro repo (feature-origem), a linha evolui em **duas fas
 3. **Fatiamento vertical** — priorizar o que fecha o ciclo do item ponta a ponta e o maior risco técnico.
 4. **Dependências externas** — integrações podem ficar fora da Onda 1-Must, mas não do MVP.
 
-> 📌 **Priorização econômica (WSJF):** para ordenar itens por valor/urgência/risco vs. esforço, use o [guia WSJF](https://github.com/fbso-techservice/platform-standards/blob/main/standards/agile/guia-wsjf-priorizacao.md).
+> 📌 **Priorização econômica (WSJF):** para ordenar itens por valor/urgência/risco vs. esforço, use o [guia WSJF](https://github.com/fbso-techsolutions/platform-standards/blob/main/standards/agile/guia-wsjf-priorizacao.md).
 
 ## 7. Manutenção
 

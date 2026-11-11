@@ -5,7 +5,7 @@
 | Campo | Valor |
 |---|---|
 | **Dono** | Eng — arquitetura de integrações |
-| **Base** | [architecture.md](../architecture.md) · [ADR-004 (ACL + Outbox)](../adrs/adr-004-acl-outbox.md) · [diretrizes-arquitetura](https://github.com/fbso-techservice/platform-standards/blob/main/standards/architecture/diretrizes-arquitetura.md) |
+| **Base** | [architecture.md](../architecture.md) · [ADR-004 (ACL + Outbox)](../adrs/adr-004-acl-outbox.md) · [diretrizes-arquitetura](https://github.com/fbso-techsolutions/platform-standards/blob/main/standards/architecture/diretrizes-arquitetura.md) |
 | **Status** | 🚧 Em formação — **1 de 5** integrações documentadas |
 
 ## 1. Mapa de integrações

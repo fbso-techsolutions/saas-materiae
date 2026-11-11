@@ -2,7 +2,7 @@
 
 > Cada feature Onda 1-Must (MVP mínimo)/Onda 2-Should (MVP completo)/Onda 3-Could (Integração & Valor) ganha um **feature card**: objetivo, escopo, regras de negócio, fluxo, stories e definition of done. Índice geral: [mapeamento de épicos](../rastreabilidade.md).
 
-> 📌 **Priorização de Features (nível Programa):** ordenar por valor/urgência/risco vs. esforço com o [guia WSJF de priorização](https://github.com/fbso-techservice/platform-standards/blob/main/standards/agile/guia-wsjf-priorizacao.md) · tabela das 13 features do pipeline: [wsjf-features-pipeline](wsjf-features-pipeline.md). Features competem só entre si (nunca com Stories).
+> 📌 **Priorização de Features (nível Programa):** ordenar por valor/urgência/risco vs. esforço com o [guia WSJF de priorização](https://github.com/fbso-techsolutions/platform-standards/blob/main/standards/agile/guia-wsjf-priorizacao.md) · tabela das 13 features do pipeline: [wsjf-features-pipeline](wsjf-features-pipeline.md). Features competem só entre si (nunca com Stories).
 
 | Documento | Épico | Prioridade | Status |
 |---|---|---|---|
@@ -14,7 +14,7 @@
 | [FEATURE-0002.0005-expedicao.md](FEATURE-0002.0005-expedicao.md) | 2 | Onda 1-Must (MVP mínimo) *(extraída da FEATURE-0002.0001 — PENDENCY-0004)* | 📝 Rascunho (2026-10-16) |
 | [FEATURE-0005.0005-travas-lgpd-compliance.md](FEATURE-0005.0005-travas-lgpd-compliance.md) | 5 | Onda 1-Must (MVP mínimo) | 📝 Rascunho (2026-10-16) |
 
-**Convenção:** `FEATURE-{épico}.{seq}-nome-da-feature.md` (ex.: [`FEATURE-0001.0001-recebimento-ativos.md`](FEATURE-0001.0001-recebimento-ativos.md)) — padrão: [identificação de entidades](https://github.com/fbso-techservice/platform-standards/blob/main/standards/agile/padrao-identificacao-entidades.md) · referencia o épico, as B-REQs atendidas e as user stories derivadas (com critérios de aceite em [`../user-stories/`](../user-stories)).
+**Convenção:** `FEATURE-{épico}.{seq}-nome-da-feature.md` (ex.: [`FEATURE-0001.0001-recebimento-ativos.md`](FEATURE-0001.0001-recebimento-ativos.md)) — padrão: [identificação de entidades](https://github.com/fbso-techsolutions/platform-standards/blob/main/standards/agile/padrao-identificacao-entidades.md) · referencia o épico, as B-REQs atendidas e as user stories derivadas (com critérios de aceite em [`../user-stories/`](../user-stories)).
 
 **Progresso:** 🗂️ **Detalhamento dos cards Onda 1-Must (MVP mínimo) completo — 4 de 4** (FEATURE-0001.0001, FEATURE-0002.0001, **FEATURE-0002.0005**, FEATURE-0005.0005 — cards existem; **conteúdo em 📝 Rascunho**, ver coluna Status) · **Onda 2-Should (MVP completo): 3 de 13 detalhadas** (FEATURE-0001.0003, FEATURE-0001.0004, FEATURE-0001.0005 — triagem) · próximas em rolling wave, na véspera de entrarem em sprint (stories 0022+).
 

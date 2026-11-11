@@ -3,7 +3,7 @@
 > 🏛️ **Definições corporativas:** o baseline transversal de segurança (Keycloak OIDC/RBAC,
 > isolamento multi-tenant via RLS, modelo de ameaças STRIDE, práticas LGPD, auditoria
 > imutável) vive em
-> [`platform-standards/standards/security/SECURITY.md`](https://github.com/fbso-techservice/platform-standards/blob/main/standards/security/SECURITY.md).
+> [`platform-standards/standards/security/SECURITY.md`](https://github.com/fbso-techsolutions/platform-standards/blob/main/standards/security/SECURITY.md).
 > Este documento cobre as premissas de segurança **específicas do produto RMR**.
 
 | Campo | Valor |

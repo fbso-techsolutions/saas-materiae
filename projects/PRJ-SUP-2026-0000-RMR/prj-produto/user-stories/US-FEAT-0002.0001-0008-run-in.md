@@ -8,7 +8,7 @@
 | **Data-alvo** | Sprint 2 (Onda 1-Must (MVP mínimo)) |
 | **Estimativa** | 3 pontos |
 | **Rastreio** | Workflow · R32 (aprovação/reprovação e retornos) |
-| **Versão** | 1.1 — layout INVEST/Gherkin ([guia ágil §5](https://github.com/fbso-techservice/platform-standards/blob/main/standards/agile/guia-invest-enablers-spike.md)) |
+| **Versão** | 1.1 — layout INVEST/Gherkin ([guia ágil §5](https://github.com/fbso-techsolutions/platform-standards/blob/main/standards/agile/guia-invest-enablers-spike.md)) |
 | **Status** | 📝 Rascunho (2026-10-16) |
 
 ---
@@ -47,4 +47,4 @@
 
 ---
 
-**Verificação INVEST** ([guia ágil §1](https://github.com/fbso-techservice/platform-standards/blob/main/standards/agile/guia-invest-enablers-spike.md)): **I** ✅ opera sobre item em RUN IN · **N** ✅ regras de reprovado conversadas com a oficina · **V** ✅ garante que só itens aprovados sigam (R32) · **E** ✅ 3 pontos · **S** ✅ cabe numa Sprint · **T** ✅ 3 cenários testáveis.
+**Verificação INVEST** ([guia ágil §1](https://github.com/fbso-techsolutions/platform-standards/blob/main/standards/agile/guia-invest-enablers-spike.md)): **I** ✅ opera sobre item em RUN IN · **N** ✅ regras de reprovado conversadas com a oficina · **V** ✅ garante que só itens aprovados sigam (R32) · **E** ✅ 3 pontos · **S** ✅ cabe numa Sprint · **T** ✅ 3 cenários testáveis.

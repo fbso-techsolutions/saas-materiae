@@ -12,4 +12,4 @@
 
 > 📌 Os **enablers** e **runways** (entrega) vivem no projeto:
 > [projects/PRJ-SUP-2026-0000-RMR/prj-tecnico/](../../projects/PRJ-SUP-2026-0000-RMR/prj-tecnico).
-> Guardrails corporativos (tenant_id/RLS, monólito, eventos, segurança): [platform-standards/standards/](https://github.com/fbso-techservice/platform-standards/tree/main/standards).
+> Guardrails corporativos (tenant_id/RLS, monólito, eventos, segurança): [platform-standards/standards/](https://github.com/fbso-techsolutions/platform-standards/tree/main/standards).

@@ -2,7 +2,7 @@
 
 > **O que é:** a lista de itens executáveis do produto — um item por linha. **Feature e épico são hierarquia, não item** (o vínculo está no ID `US-FEAT-{feature}-{SSSS}` e no card); a lista opera no nível em que a sprint trabalha: **User Story**, Enabler, Architectural Runway e ocorrências.
 > **Features demandadas (sem stories)**: entram na fila como linha `Tipo=Feature`, `Check=💡` (gatilho para o PM/PO escrever/aprovar as stories). `Contexto` traz a B-REQ/R que a feature satisfaz; o traço completo é consultado no documento de rastreabilidade do projeto associado.
-> **O que não é:** critérios de priorização ([README da pasta](README.md)) · decisões de escopo e definição de onda (no projeto) · tipos e IDs ([padrão de identificação](https://github.com/fbso-techservice/platform-standards/blob/main/standards/agile/padrao-identificacao-entidades.md)) · especificação de cada item (documento próprio — **aponta, não copia**).
+> **O que não é:** critérios de priorização ([README da pasta](README.md)) · decisões de escopo e definição de onda (no projeto) · tipos e IDs ([padrão de identificação](https://github.com/fbso-techsolutions/platform-standards/blob/main/standards/agile/padrao-identificacao-entidades.md)) · especificação de cada item (documento próprio — **aponta, não copia**).
 
 > **Leitura:** status — ⬜ A fazer · 🔄 Em execução · ✅ Entregue · 🕓 Adiada · ❌ Cancelada · cortes — S1 = 19–30/10 · S2 = 02/11 · S3 = 16/11 · S4 = 30/11 · S5 = 14/12 · **Onda 2-Should (MVP completo)** = rolling wave, sem sprint (fatiamento S2–S5 **validado** no projeto). Regras e semântica das colunas: [README da pasta](README.md).
 

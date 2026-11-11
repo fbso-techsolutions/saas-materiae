@@ -22,5 +22,5 @@ auto-hospedado — MVP em Docker Compose. K8s + ArgoCD + Helm = alvo SaaS.
 
 ## Regras
 
-- "Promover o genérico, manter o específico" — ver [platform-standards/standards/](https://github.com/fbso-techservice/platform-standards).
+- "Promover o genérico, manter o específico" — ver [platform-standards/standards/](https://github.com/fbso-techsolutions/platform-standards).
 - Visão completa do produto: [docs/negocio/visao.md](docs/negocio/visao.md).

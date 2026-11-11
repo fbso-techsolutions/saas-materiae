@@ -8,7 +8,7 @@
 | **Data-alvo** | Sprint 2 (Onda 1-Must (MVP mínimo)) |
 | **Estimativa** | 4 pontos |
 | **Rastreio** | Workflow · R28 (campos da OS), R29 (destino pós-reparo) |
-| **Versão** | 1.1 — layout INVEST/Gherkin ([guia ágil §5](https://github.com/fbso-techservice/platform-standards/blob/main/standards/agile/guia-invest-enablers-spike.md)) |
+| **Versão** | 1.1 — layout INVEST/Gherkin ([guia ágil §5](https://github.com/fbso-techsolutions/platform-standards/blob/main/standards/agile/guia-invest-enablers-spike.md)) |
 | **Status** | 📝 Rascunho (2026-10-16) |
 
 ---
@@ -52,4 +52,4 @@
 
 ---
 
-**Verificação INVEST** ([guia ágil §1](https://github.com/fbso-techservice/platform-standards/blob/main/standards/agile/guia-invest-enablers-spike.md)): **I** ✅ opera sobre item em REPARO, sem stories novas dependentes · **N** ✅ campos da OS detalhados na conversa com a oficina · **V** ✅ documenta o conserto e roteia o item (R28/R29) · **E** ✅ 4 pontos · **S** ✅ cabe numa Sprint · **T** ✅ 4 cenários testáveis.
+**Verificação INVEST** ([guia ágil §1](https://github.com/fbso-techsolutions/platform-standards/blob/main/standards/agile/guia-invest-enablers-spike.md)): **I** ✅ opera sobre item em REPARO, sem stories novas dependentes · **N** ✅ campos da OS detalhados na conversa com a oficina · **V** ✅ documenta o conserto e roteia o item (R28/R29) · **E** ✅ 4 pontos · **S** ✅ cabe numa Sprint · **T** ✅ 4 cenários testáveis.

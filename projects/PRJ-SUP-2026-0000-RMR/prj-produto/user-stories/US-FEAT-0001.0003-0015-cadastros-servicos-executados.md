@@ -8,7 +8,7 @@
 | **Data-alvo** | MVP (Onda 2-Should (MVP completo)) — rolling wave |
 | **Estimativa** | 4 pontos |
 | **Rastreio** | B-REQ-01 (apoio) · R10 (serviço executado), R11 (sem conserto/sucata), R12 (serviço no HDD), R13 (serviços de reciclagem estética) |
-| **Versão** | 1.1 — layout INVEST/Gherkin ([guia ágil §5](https://github.com/fbso-techservice/platform-standards/blob/main/standards/agile/guia-invest-enablers-spike.md)) |
+| **Versão** | 1.1 — layout INVEST/Gherkin ([guia ágil §5](https://github.com/fbso-techsolutions/platform-standards/blob/main/standards/agile/guia-invest-enablers-spike.md)) |
 | **Status** | 📝 Rascunho (2026-10-16) |
 
 ---
@@ -52,4 +52,4 @@
 
 ---
 
-**Verificação INVEST** ([guia ágil §1](https://github.com/fbso-techservice/platform-standards/blob/main/standards/agile/guia-invest-enablers-spike.md)): **I** ✅ cadastro autônomo · **N** ✅ tipos de serviço mapeados com a oficina · **V** ✅ serviços rastreáveis na OS e nas etapas (R10–R13) · **E** ✅ 4 pontos · **S** ✅ cabe numa Sprint · **T** ✅ 4 cenários testáveis.
+**Verificação INVEST** ([guia ágil §1](https://github.com/fbso-techsolutions/platform-standards/blob/main/standards/agile/guia-invest-enablers-spike.md)): **I** ✅ cadastro autônomo · **N** ✅ tipos de serviço mapeados com a oficina · **V** ✅ serviços rastreáveis na OS e nas etapas (R10–R13) · **E** ✅ 4 pontos · **S** ✅ cabe numa Sprint · **T** ✅ 4 cenários testáveis.

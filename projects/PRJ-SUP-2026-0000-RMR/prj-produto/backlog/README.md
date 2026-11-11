@@ -30,7 +30,7 @@ O antigo `BACKLOG-LIST` (140 linhas, 6 seções) foi separado em 2026-10-29:
 | §3 Definição da fatia Onda 1-Must (MVP mínimo) | [escopo-onda-1](../escopo-onda-1.md) |
 | §4 Decisões registradas | [DECISOES-BACKLOG](DECISOES-BACKLOG.md) (D-01…D-14) |
 | §5 Próximo passo | [sprints/README](../sprints/README.md) |
-| §6.1 Tipos e IDs | [padrão de identificação](https://github.com/fbso-techservice/platform-standards/blob/main/standards/agile/padrao-identificacao-entidades.md) |
+| §6.1 Tipos e IDs | [padrão de identificação](https://github.com/fbso-techsolutions/platform-standards/blob/main/standards/agile/padrao-identificacao-entidades.md) |
 | §6.2 Enablers | [sprint-1-fundacao](../sprints/sprint-1-fundacao.md) |
 | §6.3 Architectural Runways | [arquitetura/runways](../../prj-tecnico/runways/README.md) |
 | §6.4 Quadros de débito/bug/incidente | tabela de itens do [BACKLOG-LIST](../../../../docs/produto/backlog/BACKLOG-LIST.md) |
