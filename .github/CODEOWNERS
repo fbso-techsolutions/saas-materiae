@@ -2,10 +2,10 @@
 # Ajustar para os times reais da org.
 
 # Owners globais
-* @fbso-techservice/rmr
+* @fbso-techsolutions/rmr
 
 # Infra e gitops
-/infra/ @fbso-techservice/devops
+/infra/ @fbso-techsolutions/devops
 
 # Docs
-/docs/ @fbso-techservice/rmr
+/docs/ @fbso-techsolutions/rmr
